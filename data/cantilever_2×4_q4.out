@@ -1,0 +1,223 @@
+TITLE : Simple Cantilever Beam Test with 2x2 Q4 Elements
+        (23:41:13 on June 12, 2025, Thursday)
+
+C O N T R O L   I N F O R M A T I O N
+
+      NUMBER OF NODAL POINTS . . . . . . . . . . (NUMNP)  =    15
+      NUMBER OF ELEMENT GROUPS . . . . . . . . . (NUMEG)  =     1
+      NUMBER OF LOAD CASES . . . . . . . . . . . (NLCASE) =     1
+      SOLUTION MODE  . . . . . . . . . . . . . . (MODEX)  =     1
+         EQ.0, DATA CHECK
+         EQ.1, EXECUTION
+
+ N O D A L   P O I N T   D A T A
+
+    NODE       BOUNDARY                         NODAL POINT
+   NUMBER  CONDITION  CODES                     COORDINATES
+        1    1    1    1       0.00000e+00    0.00000e+00    0.00000e+00
+        2    0    0    1       2.50000e+00    0.00000e+00    0.00000e+00
+        3    0    0    1       5.00000e+00    0.00000e+00    0.00000e+00
+        4    0    0    1       7.50000e+00    0.00000e+00    0.00000e+00
+        5    0    0    1       1.00000e+01    0.00000e+00    0.00000e+00
+        6    1    1    1       0.00000e+00    5.00000e-01    0.00000e+00
+        7    0    0    1       2.50000e+00    5.00000e-01    0.00000e+00
+        8    0    0    1       5.00000e+00    5.00000e-01    0.00000e+00
+        9    0    0    1       7.50000e+00    5.00000e-01    0.00000e+00
+       10    0    0    1       1.00000e+01    5.00000e-01    0.00000e+00
+       11    1    1    1       0.00000e+00    1.00000e+00    0.00000e+00
+       12    0    0    1       2.50000e+00    1.00000e+00    0.00000e+00
+       13    0    0    1       5.00000e+00    1.00000e+00    0.00000e+00
+       14    0    0    1       7.50000e+00    1.00000e+00    0.00000e+00
+       15    0    0    1       1.00000e+01    1.00000e+00    0.00000e+00
+
+ EQUATION NUMBERS
+
+   NODE NUMBER   DEGREES OF FREEDOM
+        N           X    Y    Z
+        1           0    0    0
+        2           1    2    0
+        3           3    4    0
+        4           5    6    0
+        5           7    8    0
+        6           0    0    0
+        7           9   10    0
+        8          11   12    0
+        9          13   14    0
+       10          15   16    0
+       11           0    0    0
+       12          17   18    0
+       13          19   20    0
+       14          21   22    0
+       15          23   24    0
+
+ L O A D   C A S E   D A T A
+
+     LOAD CASE NUMBER . . . . . . . =     1
+     NUMBER OF CONCENTRATED LOADS . =     1
+
+    NODE       DIRECTION      LOAD
+   NUMBER                   MAGNITUDE
+     10            2       -1.00000e+04
+
+ E L E M E N T   G R O U P   D A T A
+
+
+ E L E M E N T   D E F I N I T I O N
+
+ ELEMENT TYPE  . . . . . . . . . . . . .( NPAR(1) ) . . =    2
+     EQ.1, TRUSS ELEMENTS
+     EQ.2, ELEMENTS CURRENTLY
+     EQ.3, NOT AVAILABLE
+
+ NUMBER OF ELEMENTS. . . . . . . . . . .( NPAR(2) ) . . =    8
+
+
+*** DEBUG: Entering AssembleStiffnessMatrix... ***
+*** DEBUG: Processing Element Group 1/1 ***
+*** DEBUG: Number of elements in this group: 8 ***
+*** DEBUG: Processing Element 1/8 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 1... ***
+*** DEBUG: ElementStiffness for element 1 returned. ***
+*** DEBUG: Calling Assembly for element 1... ***
+*** DEBUG: Assembly for element 1 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 1. ***
+*** DEBUG: Processing Element 2/8 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 2... ***
+*** DEBUG: ElementStiffness for element 2 returned. ***
+*** DEBUG: Calling Assembly for element 2... ***
+*** DEBUG: Assembly for element 2 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 2. ***
+*** DEBUG: Processing Element 3/8 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 3... ***
+*** DEBUG: ElementStiffness for element 3 returned. ***
+*** DEBUG: Calling Assembly for element 3... ***
+*** DEBUG: Assembly for element 3 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 3. ***
+*** DEBUG: Processing Element 4/8 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 4... ***
+*** DEBUG: ElementStiffness for element 4 returned. ***
+*** DEBUG: Calling Assembly for element 4... ***
+*** DEBUG: Assembly for element 4 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 4. ***
+*** DEBUG: Processing Element 5/8 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 5... ***
+*** DEBUG: ElementStiffness for element 5 returned. ***
+*** DEBUG: Calling Assembly for element 5... ***
+*** DEBUG: Assembly for element 5 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 5. ***
+*** DEBUG: Processing Element 6/8 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 6... ***
+*** DEBUG: ElementStiffness for element 6 returned. ***
+*** DEBUG: Calling Assembly for element 6... ***
+*** DEBUG: Assembly for element 6 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 6. ***
+*** DEBUG: Processing Element 7/8 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 7... ***
+*** DEBUG: ElementStiffness for element 7 returned. ***
+*** DEBUG: Calling Assembly for element 7... ***
+*** DEBUG: Assembly for element 7 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 7. ***
+*** DEBUG: Processing Element 8/8 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 8... ***
+*** DEBUG: ElementStiffness for element 8 returned. ***
+*** DEBUG: Calling Assembly for element 8... ***
+*** DEBUG: Assembly for element 8 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 8. ***
+
+*** DEBUG: Exiting AssembleStiffnessMatrix. ***
+ LOAD CASE    1
+
+
+ D I S P L A C E M E N T S
+
+  NODE           X-DISPLACEMENT    Y-DISPLACEMENT    Z-DISPLACEMENT
+    1               0.00000e+00       0.00000e+00       0.00000e+00
+    2               8.09109e-09      -2.49262e-08       0.00000e+00
+    3              -2.36030e-08      -2.97681e-08       0.00000e+00
+    4               3.42006e-08      -3.10603e-07       0.00000e+00
+    5              -8.91809e-08       2.42223e-07       0.00000e+00
+    6               0.00000e+00       0.00000e+00       0.00000e+00
+    7              -2.30568e-07       3.95894e-07       0.00000e+00
+    8              -2.31375e-08       8.58732e-08       0.00000e+00
+    9              -3.54641e-07       3.27717e-07       0.00000e+00
+   10              -1.99493e-07       2.95988e-07       0.00000e+00
+   11               0.00000e+00       0.00000e+00       0.00000e+00
+   12               4.43220e-08      -1.36989e-08       0.00000e+00
+   13              -2.41197e-07       1.29542e-08       0.00000e+00
+   14              -3.45067e-08       3.13454e-08       0.00000e+00
+   15              -2.29360e-07      -1.24884e-07       0.00000e+00
+
+ S T R E S S  C A L C U L A T I O N S  F O R  E L E M E N T  G R O U P    1
+
+  ELEMENT    GP    Sigma_X    Sigma_Y    Tau_XY     Eps_X      Eps_Y      Gam_XY
+  NUMBER
+  ----------------------------------------------------------------------------------
+    1      1 8.00450e+02 3.79733e+03-5.78984e+02-1.69374e-08 1.77860e-07-7.52679e-08
+           2 4.00433e+03 1.44769e+04-2.69883e+03-1.69374e-08 6.63781e-07-3.50848e-07
+           3 2.79299e+03 1.41135e+04-1.95126e+03-7.20535e-08 6.63781e-07-2.53664e-07
+           4-4.10892e+02 3.43393e+03 1.68588e+02-7.20535e-08 1.77860e-07 2.19164e-08
+      AvgVM:  8.60558e+03
+    2      1 4.86446e+03 1.57125e+04-3.10759e+03 7.53557e-09 7.12657e-07-4.03986e-07
+           2 2.54100e+03 7.96763e+03-9.83605e+02 7.53557e-09 3.60267e-07-1.27869e-07
+           3 3.75471e+03 8.33174e+03-1.52574e+03 6.27591e-08 3.60267e-07-1.98347e-07
+           4 6.07816e+03 1.60766e+04-3.64973e+03 6.27591e-08 7.12657e-07-4.74465e-07
+      AvgVM:  1.13248e+04
+    3      1 2.76640e+03 9.87378e+03-1.78278e+03-9.78661e-09 4.52193e-07-2.31761e-07
+           2 6.74577e+03 2.31384e+04-5.24072e+03-9.78661e-09 1.05573e-06-6.81294e-07
+           3 4.76981e+03 2.25456e+04-4.31220e+03-9.96932e-08 1.05573e-06-5.60587e-07
+           4 7.90433e+02 9.28099e+03-8.54260e+02-9.96932e-08 4.52193e-07-1.11054e-07
+      AvgVM:  1.56987e+04
+    4      1 6.22121e+03 2.24579e+04-3.75572e+03-2.58085e-08 1.02958e-06-4.88244e-07
+           2 1.77076e+03 7.62309e+03-1.28174e+03-2.58085e-08 3.54593e-07-1.66626e-07
+           3 3.18446e+03 8.04720e+03-2.32018e+03 3.85150e-08 3.54593e-07-3.01624e-07
+           4 7.63492e+03 2.28821e+04-4.79416e+03 3.85150e-08 1.02958e-06-6.23241e-07
+      AvgVM:  1.45694e+04
+    5      1-2.65770e+03-4.25960e+03 1.84552e+03-6.89909e-08-1.73114e-07 2.39917e-07
+           2-5.77610e+03-1.46543e+04 4.28718e+03-6.89909e-08-6.46072e-07 5.57333e-07
+           3-4.38086e+03-1.42357e+04 3.55955e+03-5.50767e-09-6.46072e-07 4.62742e-07
+           4-1.26246e+03-3.84103e+03 1.11789e+03-5.50767e-09-1.73114e-07 1.45326e-07
+      AvgVM:  9.41325e+03
+    6      1-3.55525e+03-1.46044e+04 1.89143e+03 4.13033e-08-6.76891e-07 2.45886e-07
+           2-9.92015e+02-6.06027e+03-2.48710e+03 4.13033e-08-2.88133e-07-3.23323e-07
+           3-3.49403e+03-6.81088e+03-1.88901e+03-7.25385e-08-2.88133e-07-2.45571e-07
+           4-6.05727e+03-1.53550e+04 2.48952e+03-7.25385e-08-6.76891e-07 3.23638e-07
+      AvgVM:  1.03749e+04
+    7      1-3.49872e+03-5.85522e+03-1.00617e+03-8.71078e-08-2.40280e-07-1.30802e-07
+           2-5.19996e+03-1.15260e+04 3.77423e+03-8.71078e-08-4.98302e-07 4.90650e-07
+           3-2.46830e+03-1.07065e+04 3.37727e+03 3.71826e-08-4.98302e-07 4.39046e-07
+           4-7.67066e+02-5.03573e+03-1.40313e+03 3.71826e-08-2.40280e-07-1.82407e-07
+      AvgVM:  8.49110e+03
+    8      1-3.54144e+03-1.39697e+04 3.60865e+03 3.24735e-08-6.45364e-07 4.69125e-07
+           2-4.48932e+03-1.71293e+04 4.99836e+02 3.24735e-08-7.89125e-07 6.49787e-08
+           3-6.26579e+03-1.76622e+04 2.78665e+02-4.83556e-08-7.89125e-07 3.62265e-08
+           4-5.31791e+03-1.45027e+04 3.38748e+03-4.83556e-08-6.45364e-07 4.40372e-07
+      AvgVM:  1.47420e+04
+
+
+> Generating VTK file for post-processing...
+> VTK file "D:\大三\有限元\STAPpp-master\STAPpp-master\data\cantilever_2×4_q4.vtk" generated successfully.
+
+ S O L U T I O N   T I M E   L O G   I N   S E C 
+
+     TIME FOR INPUT PHASE = 6.90000e-02
+     TIME FOR CALCULATION OF STIFFNESS MATRIX = 9.20000e-02
+     TIME FOR FACTORIZATION AND LOAD CASE SOLUTIONS = 5.60000e-02
+
+     T O T A L   S O L U T I O N   T I M E = 2.17000e-01
+
