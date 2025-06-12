@@ -1,0 +1,3 @@
+D:/大三/有限元/build/CMakeFiles/stap++.dir
+D:/大三/有限元/build/CMakeFiles/ALL_BUILD.dir
+D:/大三/有限元/build/CMakeFiles/ZERO_CHECK.dir

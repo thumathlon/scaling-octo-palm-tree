@@ -1,0 +1,10 @@
+^D:\大三\有限元\BUILD\CMAKEFILES\71DD8AF3F7725F7B59CDD386529CCF48\GENERATE.STAMP.RULE
+setlocal
+D:\CMake\bin\cmake.exe -SD:/大三/有限元/STAPpp-master/STAPpp-master/src -BD:/大三/有限元/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/大三/有限元/build/stap++.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
