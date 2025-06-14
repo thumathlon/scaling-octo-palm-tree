@@ -1,0 +1,2721 @@
+TITLE : Simple Cantilever Beam Test with 2x2 Q4 Elements
+        (20:51:31 on June 14, 2025, Saturday)
+
+C O N T R O L   I N F O R M A T I O N
+
+      NUMBER OF NODAL POINTS . . . . . . . . . . (NUMNP)  =   189
+      NUMBER OF ELEMENT GROUPS . . . . . . . . . (NUMEG)  =     1
+      NUMBER OF LOAD CASES . . . . . . . . . . . (NLCASE) =     1
+      SOLUTION MODE  . . . . . . . . . . . . . . (MODEX)  =     1
+         EQ.0, DATA CHECK
+         EQ.1, EXECUTION
+
+ N O D A L   P O I N T   D A T A
+
+    NODE       BOUNDARY                         NODAL POINT
+   NUMBER  CONDITION  CODES                     COORDINATES
+        1    1    1    1       0.00000e+00    0.00000e+00    0.00000e+00
+        2    0    0    1       5.00000e-01    0.00000e+00    0.00000e+00
+        3    0    0    1       1.00000e+00    0.00000e+00    0.00000e+00
+        4    0    0    1       1.50000e+00    0.00000e+00    0.00000e+00
+        5    0    0    1       2.00000e+00    0.00000e+00    0.00000e+00
+        6    0    0    1       2.50000e+00    0.00000e+00    0.00000e+00
+        7    0    0    1       3.00000e+00    0.00000e+00    0.00000e+00
+        8    0    0    1       3.50000e+00    0.00000e+00    0.00000e+00
+        9    0    0    1       4.00000e+00    0.00000e+00    0.00000e+00
+       10    0    0    1       4.50000e+00    0.00000e+00    0.00000e+00
+       11    0    0    1       5.00000e+00    0.00000e+00    0.00000e+00
+       12    0    0    1       5.50000e+00    0.00000e+00    0.00000e+00
+       13    0    0    1       6.00000e+00    0.00000e+00    0.00000e+00
+       14    0    0    1       6.50000e+00    0.00000e+00    0.00000e+00
+       15    0    0    1       7.00000e+00    0.00000e+00    0.00000e+00
+       16    0    0    1       7.50000e+00    0.00000e+00    0.00000e+00
+       17    0    0    1       8.00000e+00    0.00000e+00    0.00000e+00
+       18    0    0    1       8.50000e+00    0.00000e+00    0.00000e+00
+       19    0    0    1       9.00000e+00    0.00000e+00    0.00000e+00
+       20    0    0    1       9.50000e+00    0.00000e+00    0.00000e+00
+       21    0    0    1       1.00000e+01    0.00000e+00    0.00000e+00
+       22    1    1    1       0.00000e+00    1.25000e-01    0.00000e+00
+       23    0    0    1       5.00000e-01    1.25000e-01    0.00000e+00
+       24    0    0    1       1.00000e+00    1.25000e-01    0.00000e+00
+       25    0    0    1       1.50000e+00    1.25000e-01    0.00000e+00
+       26    0    0    1       2.00000e+00    1.25000e-01    0.00000e+00
+       27    0    0    1       2.50000e+00    1.25000e-01    0.00000e+00
+       28    0    0    1       3.00000e+00    1.25000e-01    0.00000e+00
+       29    0    0    1       3.50000e+00    1.25000e-01    0.00000e+00
+       30    0    0    1       4.00000e+00    1.25000e-01    0.00000e+00
+       31    0    0    1       4.50000e+00    1.25000e-01    0.00000e+00
+       32    0    0    1       5.00000e+00    1.25000e-01    0.00000e+00
+       33    0    0    1       5.50000e+00    1.25000e-01    0.00000e+00
+       34    0    0    1       6.00000e+00    1.25000e-01    0.00000e+00
+       35    0    0    1       6.50000e+00    1.25000e-01    0.00000e+00
+       36    0    0    1       7.00000e+00    1.25000e-01    0.00000e+00
+       37    0    0    1       7.50000e+00    1.25000e-01    0.00000e+00
+       38    0    0    1       8.00000e+00    1.25000e-01    0.00000e+00
+       39    0    0    1       8.50000e+00    1.25000e-01    0.00000e+00
+       40    0    0    1       9.00000e+00    1.25000e-01    0.00000e+00
+       41    0    0    1       9.50000e+00    1.25000e-01    0.00000e+00
+       42    0    0    1       1.00000e+01    1.25000e-01    0.00000e+00
+       43    1    1    1       0.00000e+00    2.50000e-01    0.00000e+00
+       44    0    0    1       5.00000e-01    2.50000e-01    0.00000e+00
+       45    0    0    1       1.00000e+00    2.50000e-01    0.00000e+00
+       46    0    0    1       1.50000e+00    2.50000e-01    0.00000e+00
+       47    0    0    1       2.00000e+00    2.50000e-01    0.00000e+00
+       48    0    0    1       2.50000e+00    2.50000e-01    0.00000e+00
+       49    0    0    1       3.00000e+00    2.50000e-01    0.00000e+00
+       50    0    0    1       3.50000e+00    2.50000e-01    0.00000e+00
+       51    0    0    1       4.00000e+00    2.50000e-01    0.00000e+00
+       52    0    0    1       4.50000e+00    2.50000e-01    0.00000e+00
+       53    0    0    1       5.00000e+00    2.50000e-01    0.00000e+00
+       54    0    0    1       5.50000e+00    2.50000e-01    0.00000e+00
+       55    0    0    1       6.00000e+00    2.50000e-01    0.00000e+00
+       56    0    0    1       6.50000e+00    2.50000e-01    0.00000e+00
+       57    0    0    1       7.00000e+00    2.50000e-01    0.00000e+00
+       58    0    0    1       7.50000e+00    2.50000e-01    0.00000e+00
+       59    0    0    1       8.00000e+00    2.50000e-01    0.00000e+00
+       60    0    0    1       8.50000e+00    2.50000e-01    0.00000e+00
+       61    0    0    1       9.00000e+00    2.50000e-01    0.00000e+00
+       62    0    0    1       9.50000e+00    2.50000e-01    0.00000e+00
+       63    0    0    1       1.00000e+01    2.50000e-01    0.00000e+00
+       64    1    1    1       0.00000e+00    3.75000e-01    0.00000e+00
+       65    0    0    1       5.00000e-01    3.75000e-01    0.00000e+00
+       66    0    0    1       1.00000e+00    3.75000e-01    0.00000e+00
+       67    0    0    1       1.50000e+00    3.75000e-01    0.00000e+00
+       68    0    0    1       2.00000e+00    3.75000e-01    0.00000e+00
+       69    0    0    1       2.50000e+00    3.75000e-01    0.00000e+00
+       70    0    0    1       3.00000e+00    3.75000e-01    0.00000e+00
+       71    0    0    1       3.50000e+00    3.75000e-01    0.00000e+00
+       72    0    0    1       4.00000e+00    3.75000e-01    0.00000e+00
+       73    0    0    1       4.50000e+00    3.75000e-01    0.00000e+00
+       74    0    0    1       5.00000e+00    3.75000e-01    0.00000e+00
+       75    0    0    1       5.50000e+00    3.75000e-01    0.00000e+00
+       76    0    0    1       6.00000e+00    3.75000e-01    0.00000e+00
+       77    0    0    1       6.50000e+00    3.75000e-01    0.00000e+00
+       78    0    0    1       7.00000e+00    3.75000e-01    0.00000e+00
+       79    0    0    1       7.50000e+00    3.75000e-01    0.00000e+00
+       80    0    0    1       8.00000e+00    3.75000e-01    0.00000e+00
+       81    0    0    1       8.50000e+00    3.75000e-01    0.00000e+00
+       82    0    0    1       9.00000e+00    3.75000e-01    0.00000e+00
+       83    0    0    1       9.50000e+00    3.75000e-01    0.00000e+00
+       84    0    0    1       1.00000e+01    3.75000e-01    0.00000e+00
+       85    1    1    1       0.00000e+00    5.00000e-01    0.00000e+00
+       86    0    0    1       5.00000e-01    5.00000e-01    0.00000e+00
+       87    0    0    1       1.00000e+00    5.00000e-01    0.00000e+00
+       88    0    0    1       1.50000e+00    5.00000e-01    0.00000e+00
+       89    0    0    1       2.00000e+00    5.00000e-01    0.00000e+00
+       90    0    0    1       2.50000e+00    5.00000e-01    0.00000e+00
+       91    0    0    1       3.00000e+00    5.00000e-01    0.00000e+00
+       92    0    0    1       3.50000e+00    5.00000e-01    0.00000e+00
+       93    0    0    1       4.00000e+00    5.00000e-01    0.00000e+00
+       94    0    0    1       4.50000e+00    5.00000e-01    0.00000e+00
+       95    0    0    1       5.00000e+00    5.00000e-01    0.00000e+00
+       96    0    0    1       5.50000e+00    5.00000e-01    0.00000e+00
+       97    0    0    1       6.00000e+00    5.00000e-01    0.00000e+00
+       98    0    0    1       6.50000e+00    5.00000e-01    0.00000e+00
+       99    0    0    1       7.00000e+00    5.00000e-01    0.00000e+00
+      100    0    0    1       7.50000e+00    5.00000e-01    0.00000e+00
+      101    0    0    1       8.00000e+00    5.00000e-01    0.00000e+00
+      102    0    0    1       8.50000e+00    5.00000e-01    0.00000e+00
+      103    0    0    1       9.00000e+00    5.00000e-01    0.00000e+00
+      104    0    0    1       9.50000e+00    5.00000e-01    0.00000e+00
+      105    0    0    1       1.00000e+01    5.00000e-01    0.00000e+00
+      106    1    1    1       0.00000e+00    6.25000e-01    0.00000e+00
+      107    0    0    1       5.00000e-01    6.25000e-01    0.00000e+00
+      108    0    0    1       1.00000e+00    6.25000e-01    0.00000e+00
+      109    0    0    1       1.50000e+00    6.25000e-01    0.00000e+00
+      110    0    0    1       2.00000e+00    6.25000e-01    0.00000e+00
+      111    0    0    1       2.50000e+00    6.25000e-01    0.00000e+00
+      112    0    0    1       3.00000e+00    6.25000e-01    0.00000e+00
+      113    0    0    1       3.50000e+00    6.25000e-01    0.00000e+00
+      114    0    0    1       4.00000e+00    6.25000e-01    0.00000e+00
+      115    0    0    1       4.50000e+00    6.25000e-01    0.00000e+00
+      116    0    0    1       5.00000e+00    6.25000e-01    0.00000e+00
+      117    0    0    1       5.50000e+00    6.25000e-01    0.00000e+00
+      118    0    0    1       6.00000e+00    6.25000e-01    0.00000e+00
+      119    0    0    1       6.50000e+00    6.25000e-01    0.00000e+00
+      120    0    0    1       7.00000e+00    6.25000e-01    0.00000e+00
+      121    0    0    1       7.50000e+00    6.25000e-01    0.00000e+00
+      122    0    0    1       8.00000e+00    6.25000e-01    0.00000e+00
+      123    0    0    1       8.50000e+00    6.25000e-01    0.00000e+00
+      124    0    0    1       9.00000e+00    6.25000e-01    0.00000e+00
+      125    0    0    1       9.50000e+00    6.25000e-01    0.00000e+00
+      126    0    0    1       1.00000e+01    6.25000e-01    0.00000e+00
+      127    1    1    1       0.00000e+00    7.50000e-01    0.00000e+00
+      128    0    0    1       5.00000e-01    7.50000e-01    0.00000e+00
+      129    0    0    1       1.00000e+00    7.50000e-01    0.00000e+00
+      130    0    0    1       1.50000e+00    7.50000e-01    0.00000e+00
+      131    0    0    1       2.00000e+00    7.50000e-01    0.00000e+00
+      132    0    0    1       2.50000e+00    7.50000e-01    0.00000e+00
+      133    0    0    1       3.00000e+00    7.50000e-01    0.00000e+00
+      134    0    0    1       3.50000e+00    7.50000e-01    0.00000e+00
+      135    0    0    1       4.00000e+00    7.50000e-01    0.00000e+00
+      136    0    0    1       4.50000e+00    7.50000e-01    0.00000e+00
+      137    0    0    1       5.00000e+00    7.50000e-01    0.00000e+00
+      138    0    0    1       5.50000e+00    7.50000e-01    0.00000e+00
+      139    0    0    1       6.00000e+00    7.50000e-01    0.00000e+00
+      140    0    0    1       6.50000e+00    7.50000e-01    0.00000e+00
+      141    0    0    1       7.00000e+00    7.50000e-01    0.00000e+00
+      142    0    0    1       7.50000e+00    7.50000e-01    0.00000e+00
+      143    0    0    1       8.00000e+00    7.50000e-01    0.00000e+00
+      144    0    0    1       8.50000e+00    7.50000e-01    0.00000e+00
+      145    0    0    1       9.00000e+00    7.50000e-01    0.00000e+00
+      146    0    0    1       9.50000e+00    7.50000e-01    0.00000e+00
+      147    0    0    1       1.00000e+01    7.50000e-01    0.00000e+00
+      148    1    1    1       0.00000e+00    8.75000e-01    0.00000e+00
+      149    0    0    1       5.00000e-01    8.75000e-01    0.00000e+00
+      150    0    0    1       1.00000e+00    8.75000e-01    0.00000e+00
+      151    0    0    1       1.50000e+00    8.75000e-01    0.00000e+00
+      152    0    0    1       2.00000e+00    8.75000e-01    0.00000e+00
+      153    0    0    1       2.50000e+00    8.75000e-01    0.00000e+00
+      154    0    0    1       3.00000e+00    8.75000e-01    0.00000e+00
+      155    0    0    1       3.50000e+00    8.75000e-01    0.00000e+00
+      156    0    0    1       4.00000e+00    8.75000e-01    0.00000e+00
+      157    0    0    1       4.50000e+00    8.75000e-01    0.00000e+00
+      158    0    0    1       5.00000e+00    8.75000e-01    0.00000e+00
+      159    0    0    1       5.50000e+00    8.75000e-01    0.00000e+00
+      160    0    0    1       6.00000e+00    8.75000e-01    0.00000e+00
+      161    0    0    1       6.50000e+00    8.75000e-01    0.00000e+00
+      162    0    0    1       7.00000e+00    8.75000e-01    0.00000e+00
+      163    0    0    1       7.50000e+00    8.75000e-01    0.00000e+00
+      164    0    0    1       8.00000e+00    8.75000e-01    0.00000e+00
+      165    0    0    1       8.50000e+00    8.75000e-01    0.00000e+00
+      166    0    0    1       9.00000e+00    8.75000e-01    0.00000e+00
+      167    0    0    1       9.50000e+00    8.75000e-01    0.00000e+00
+      168    0    0    1       1.00000e+01    8.75000e-01    0.00000e+00
+      169    1    1    1       0.00000e+00    1.00000e+00    0.00000e+00
+      170    0    0    1       5.00000e-01    1.00000e+00    0.00000e+00
+      171    0    0    1       1.00000e+00    1.00000e+00    0.00000e+00
+      172    0    0    1       1.50000e+00    1.00000e+00    0.00000e+00
+      173    0    0    1       2.00000e+00    1.00000e+00    0.00000e+00
+      174    0    0    1       2.50000e+00    1.00000e+00    0.00000e+00
+      175    0    0    1       3.00000e+00    1.00000e+00    0.00000e+00
+      176    0    0    1       3.50000e+00    1.00000e+00    0.00000e+00
+      177    0    0    1       4.00000e+00    1.00000e+00    0.00000e+00
+      178    0    0    1       4.50000e+00    1.00000e+00    0.00000e+00
+      179    0    0    1       5.00000e+00    1.00000e+00    0.00000e+00
+      180    0    0    1       5.50000e+00    1.00000e+00    0.00000e+00
+      181    0    0    1       6.00000e+00    1.00000e+00    0.00000e+00
+      182    0    0    1       6.50000e+00    1.00000e+00    0.00000e+00
+      183    0    0    1       7.00000e+00    1.00000e+00    0.00000e+00
+      184    0    0    1       7.50000e+00    1.00000e+00    0.00000e+00
+      185    0    0    1       8.00000e+00    1.00000e+00    0.00000e+00
+      186    0    0    1       8.50000e+00    1.00000e+00    0.00000e+00
+      187    0    0    1       9.00000e+00    1.00000e+00    0.00000e+00
+      188    0    0    1       9.50000e+00    1.00000e+00    0.00000e+00
+      189    0    0    1       1.00000e+01    1.00000e+00    0.00000e+00
+
+ EQUATION NUMBERS
+
+   NODE NUMBER   DEGREES OF FREEDOM
+        N           X    Y    Z
+        1           0    0    0
+        2           1    2    0
+        3           3    4    0
+        4           5    6    0
+        5           7    8    0
+        6           9   10    0
+        7          11   12    0
+        8          13   14    0
+        9          15   16    0
+       10          17   18    0
+       11          19   20    0
+       12          21   22    0
+       13          23   24    0
+       14          25   26    0
+       15          27   28    0
+       16          29   30    0
+       17          31   32    0
+       18          33   34    0
+       19          35   36    0
+       20          37   38    0
+       21          39   40    0
+       22           0    0    0
+       23          41   42    0
+       24          43   44    0
+       25          45   46    0
+       26          47   48    0
+       27          49   50    0
+       28          51   52    0
+       29          53   54    0
+       30          55   56    0
+       31          57   58    0
+       32          59   60    0
+       33          61   62    0
+       34          63   64    0
+       35          65   66    0
+       36          67   68    0
+       37          69   70    0
+       38          71   72    0
+       39          73   74    0
+       40          75   76    0
+       41          77   78    0
+       42          79   80    0
+       43           0    0    0
+       44          81   82    0
+       45          83   84    0
+       46          85   86    0
+       47          87   88    0
+       48          89   90    0
+       49          91   92    0
+       50          93   94    0
+       51          95   96    0
+       52          97   98    0
+       53          99  100    0
+       54         101  102    0
+       55         103  104    0
+       56         105  106    0
+       57         107  108    0
+       58         109  110    0
+       59         111  112    0
+       60         113  114    0
+       61         115  116    0
+       62         117  118    0
+       63         119  120    0
+       64           0    0    0
+       65         121  122    0
+       66         123  124    0
+       67         125  126    0
+       68         127  128    0
+       69         129  130    0
+       70         131  132    0
+       71         133  134    0
+       72         135  136    0
+       73         137  138    0
+       74         139  140    0
+       75         141  142    0
+       76         143  144    0
+       77         145  146    0
+       78         147  148    0
+       79         149  150    0
+       80         151  152    0
+       81         153  154    0
+       82         155  156    0
+       83         157  158    0
+       84         159  160    0
+       85           0    0    0
+       86         161  162    0
+       87         163  164    0
+       88         165  166    0
+       89         167  168    0
+       90         169  170    0
+       91         171  172    0
+       92         173  174    0
+       93         175  176    0
+       94         177  178    0
+       95         179  180    0
+       96         181  182    0
+       97         183  184    0
+       98         185  186    0
+       99         187  188    0
+      100         189  190    0
+      101         191  192    0
+      102         193  194    0
+      103         195  196    0
+      104         197  198    0
+      105         199  200    0
+      106           0    0    0
+      107         201  202    0
+      108         203  204    0
+      109         205  206    0
+      110         207  208    0
+      111         209  210    0
+      112         211  212    0
+      113         213  214    0
+      114         215  216    0
+      115         217  218    0
+      116         219  220    0
+      117         221  222    0
+      118         223  224    0
+      119         225  226    0
+      120         227  228    0
+      121         229  230    0
+      122         231  232    0
+      123         233  234    0
+      124         235  236    0
+      125         237  238    0
+      126         239  240    0
+      127           0    0    0
+      128         241  242    0
+      129         243  244    0
+      130         245  246    0
+      131         247  248    0
+      132         249  250    0
+      133         251  252    0
+      134         253  254    0
+      135         255  256    0
+      136         257  258    0
+      137         259  260    0
+      138         261  262    0
+      139         263  264    0
+      140         265  266    0
+      141         267  268    0
+      142         269  270    0
+      143         271  272    0
+      144         273  274    0
+      145         275  276    0
+      146         277  278    0
+      147         279  280    0
+      148           0    0    0
+      149         281  282    0
+      150         283  284    0
+      151         285  286    0
+      152         287  288    0
+      153         289  290    0
+      154         291  292    0
+      155         293  294    0
+      156         295  296    0
+      157         297  298    0
+      158         299  300    0
+      159         301  302    0
+      160         303  304    0
+      161         305  306    0
+      162         307  308    0
+      163         309  310    0
+      164         311  312    0
+      165         313  314    0
+      166         315  316    0
+      167         317  318    0
+      168         319  320    0
+      169           0    0    0
+      170         321  322    0
+      171         323  324    0
+      172         325  326    0
+      173         327  328    0
+      174         329  330    0
+      175         331  332    0
+      176         333  334    0
+      177         335  336    0
+      178         337  338    0
+      179         339  340    0
+      180         341  342    0
+      181         343  344    0
+      182         345  346    0
+      183         347  348    0
+      184         349  350    0
+      185         351  352    0
+      186         353  354    0
+      187         355  356    0
+      188         357  358    0
+      189         359  360    0
+
+ L O A D   C A S E   D A T A
+
+     LOAD CASE NUMBER . . . . . . . =     1
+     NUMBER OF CONCENTRATED LOADS . =     1
+
+    NODE       DIRECTION      LOAD
+   NUMBER                   MAGNITUDE
+    105            2       -1.00000e+04
+
+ E L E M E N T   G R O U P   D A T A
+
+
+ E L E M E N T   D E F I N I T I O N
+
+ ELEMENT TYPE  . . . . . . . . . . . . .( NPAR(1) ) . . =    2
+     EQ.1, TRUSS ELEMENTS
+     EQ.2, ELEMENTS CURRENTLY
+     EQ.3, NOT AVAILABLE
+
+ NUMBER OF ELEMENTS. . . . . . . . . . .( NPAR(2) ) . . =  160
+
+
+*** DEBUG: Entering AssembleStiffnessMatrix... ***
+*** DEBUG: Processing Element Group 1/1 ***
+*** DEBUG: Number of elements in this group: 160 ***
+*** DEBUG: Processing Element 1/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 1... ***
+*** DEBUG: ElementStiffness for element 1 returned. ***
+*** DEBUG: Calling Assembly for element 1... ***
+*** DEBUG: Assembly for element 1 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 1. ***
+*** DEBUG: Processing Element 2/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 2... ***
+*** DEBUG: ElementStiffness for element 2 returned. ***
+*** DEBUG: Calling Assembly for element 2... ***
+*** DEBUG: Assembly for element 2 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 2. ***
+*** DEBUG: Processing Element 3/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 3... ***
+*** DEBUG: ElementStiffness for element 3 returned. ***
+*** DEBUG: Calling Assembly for element 3... ***
+*** DEBUG: Assembly for element 3 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 3. ***
+*** DEBUG: Processing Element 4/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 4... ***
+*** DEBUG: ElementStiffness for element 4 returned. ***
+*** DEBUG: Calling Assembly for element 4... ***
+*** DEBUG: Assembly for element 4 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 4. ***
+*** DEBUG: Processing Element 5/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 5... ***
+*** DEBUG: ElementStiffness for element 5 returned. ***
+*** DEBUG: Calling Assembly for element 5... ***
+*** DEBUG: Assembly for element 5 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 5. ***
+*** DEBUG: Processing Element 6/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 6... ***
+*** DEBUG: ElementStiffness for element 6 returned. ***
+*** DEBUG: Calling Assembly for element 6... ***
+*** DEBUG: Assembly for element 6 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 6. ***
+*** DEBUG: Processing Element 7/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 7... ***
+*** DEBUG: ElementStiffness for element 7 returned. ***
+*** DEBUG: Calling Assembly for element 7... ***
+*** DEBUG: Assembly for element 7 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 7. ***
+*** DEBUG: Processing Element 8/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 8... ***
+*** DEBUG: ElementStiffness for element 8 returned. ***
+*** DEBUG: Calling Assembly for element 8... ***
+*** DEBUG: Assembly for element 8 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 8. ***
+*** DEBUG: Processing Element 9/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 9... ***
+*** DEBUG: ElementStiffness for element 9 returned. ***
+*** DEBUG: Calling Assembly for element 9... ***
+*** DEBUG: Assembly for element 9 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 9. ***
+*** DEBUG: Processing Element 10/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 10... ***
+*** DEBUG: ElementStiffness for element 10 returned. ***
+*** DEBUG: Calling Assembly for element 10... ***
+*** DEBUG: Assembly for element 10 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 10. ***
+*** DEBUG: Processing Element 11/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 11... ***
+*** DEBUG: ElementStiffness for element 11 returned. ***
+*** DEBUG: Calling Assembly for element 11... ***
+*** DEBUG: Assembly for element 11 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 11. ***
+*** DEBUG: Processing Element 12/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 12... ***
+*** DEBUG: ElementStiffness for element 12 returned. ***
+*** DEBUG: Calling Assembly for element 12... ***
+*** DEBUG: Assembly for element 12 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 12. ***
+*** DEBUG: Processing Element 13/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 13... ***
+*** DEBUG: ElementStiffness for element 13 returned. ***
+*** DEBUG: Calling Assembly for element 13... ***
+*** DEBUG: Assembly for element 13 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 13. ***
+*** DEBUG: Processing Element 14/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 14... ***
+*** DEBUG: ElementStiffness for element 14 returned. ***
+*** DEBUG: Calling Assembly for element 14... ***
+*** DEBUG: Assembly for element 14 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 14. ***
+*** DEBUG: Processing Element 15/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 15... ***
+*** DEBUG: ElementStiffness for element 15 returned. ***
+*** DEBUG: Calling Assembly for element 15... ***
+*** DEBUG: Assembly for element 15 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 15. ***
+*** DEBUG: Processing Element 16/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 16... ***
+*** DEBUG: ElementStiffness for element 16 returned. ***
+*** DEBUG: Calling Assembly for element 16... ***
+*** DEBUG: Assembly for element 16 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 16. ***
+*** DEBUG: Processing Element 17/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 17... ***
+*** DEBUG: ElementStiffness for element 17 returned. ***
+*** DEBUG: Calling Assembly for element 17... ***
+*** DEBUG: Assembly for element 17 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 17. ***
+*** DEBUG: Processing Element 18/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 18... ***
+*** DEBUG: ElementStiffness for element 18 returned. ***
+*** DEBUG: Calling Assembly for element 18... ***
+*** DEBUG: Assembly for element 18 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 18. ***
+*** DEBUG: Processing Element 19/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 19... ***
+*** DEBUG: ElementStiffness for element 19 returned. ***
+*** DEBUG: Calling Assembly for element 19... ***
+*** DEBUG: Assembly for element 19 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 19. ***
+*** DEBUG: Processing Element 20/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 20... ***
+*** DEBUG: ElementStiffness for element 20 returned. ***
+*** DEBUG: Calling Assembly for element 20... ***
+*** DEBUG: Assembly for element 20 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 20. ***
+*** DEBUG: Processing Element 21/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 21... ***
+*** DEBUG: ElementStiffness for element 21 returned. ***
+*** DEBUG: Calling Assembly for element 21... ***
+*** DEBUG: Assembly for element 21 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 21. ***
+*** DEBUG: Processing Element 22/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 22... ***
+*** DEBUG: ElementStiffness for element 22 returned. ***
+*** DEBUG: Calling Assembly for element 22... ***
+*** DEBUG: Assembly for element 22 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 22. ***
+*** DEBUG: Processing Element 23/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 23... ***
+*** DEBUG: ElementStiffness for element 23 returned. ***
+*** DEBUG: Calling Assembly for element 23... ***
+*** DEBUG: Assembly for element 23 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 23. ***
+*** DEBUG: Processing Element 24/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 24... ***
+*** DEBUG: ElementStiffness for element 24 returned. ***
+*** DEBUG: Calling Assembly for element 24... ***
+*** DEBUG: Assembly for element 24 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 24. ***
+*** DEBUG: Processing Element 25/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 25... ***
+*** DEBUG: ElementStiffness for element 25 returned. ***
+*** DEBUG: Calling Assembly for element 25... ***
+*** DEBUG: Assembly for element 25 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 25. ***
+*** DEBUG: Processing Element 26/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 26... ***
+*** DEBUG: ElementStiffness for element 26 returned. ***
+*** DEBUG: Calling Assembly for element 26... ***
+*** DEBUG: Assembly for element 26 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 26. ***
+*** DEBUG: Processing Element 27/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 27... ***
+*** DEBUG: ElementStiffness for element 27 returned. ***
+*** DEBUG: Calling Assembly for element 27... ***
+*** DEBUG: Assembly for element 27 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 27. ***
+*** DEBUG: Processing Element 28/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 28... ***
+*** DEBUG: ElementStiffness for element 28 returned. ***
+*** DEBUG: Calling Assembly for element 28... ***
+*** DEBUG: Assembly for element 28 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 28. ***
+*** DEBUG: Processing Element 29/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 29... ***
+*** DEBUG: ElementStiffness for element 29 returned. ***
+*** DEBUG: Calling Assembly for element 29... ***
+*** DEBUG: Assembly for element 29 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 29. ***
+*** DEBUG: Processing Element 30/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 30... ***
+*** DEBUG: ElementStiffness for element 30 returned. ***
+*** DEBUG: Calling Assembly for element 30... ***
+*** DEBUG: Assembly for element 30 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 30. ***
+*** DEBUG: Processing Element 31/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 31... ***
+*** DEBUG: ElementStiffness for element 31 returned. ***
+*** DEBUG: Calling Assembly for element 31... ***
+*** DEBUG: Assembly for element 31 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 31. ***
+*** DEBUG: Processing Element 32/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 32... ***
+*** DEBUG: ElementStiffness for element 32 returned. ***
+*** DEBUG: Calling Assembly for element 32... ***
+*** DEBUG: Assembly for element 32 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 32. ***
+*** DEBUG: Processing Element 33/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 33... ***
+*** DEBUG: ElementStiffness for element 33 returned. ***
+*** DEBUG: Calling Assembly for element 33... ***
+*** DEBUG: Assembly for element 33 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 33. ***
+*** DEBUG: Processing Element 34/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 34... ***
+*** DEBUG: ElementStiffness for element 34 returned. ***
+*** DEBUG: Calling Assembly for element 34... ***
+*** DEBUG: Assembly for element 34 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 34. ***
+*** DEBUG: Processing Element 35/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 35... ***
+*** DEBUG: ElementStiffness for element 35 returned. ***
+*** DEBUG: Calling Assembly for element 35... ***
+*** DEBUG: Assembly for element 35 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 35. ***
+*** DEBUG: Processing Element 36/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 36... ***
+*** DEBUG: ElementStiffness for element 36 returned. ***
+*** DEBUG: Calling Assembly for element 36... ***
+*** DEBUG: Assembly for element 36 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 36. ***
+*** DEBUG: Processing Element 37/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 37... ***
+*** DEBUG: ElementStiffness for element 37 returned. ***
+*** DEBUG: Calling Assembly for element 37... ***
+*** DEBUG: Assembly for element 37 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 37. ***
+*** DEBUG: Processing Element 38/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 38... ***
+*** DEBUG: ElementStiffness for element 38 returned. ***
+*** DEBUG: Calling Assembly for element 38... ***
+*** DEBUG: Assembly for element 38 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 38. ***
+*** DEBUG: Processing Element 39/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 39... ***
+*** DEBUG: ElementStiffness for element 39 returned. ***
+*** DEBUG: Calling Assembly for element 39... ***
+*** DEBUG: Assembly for element 39 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 39. ***
+*** DEBUG: Processing Element 40/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 40... ***
+*** DEBUG: ElementStiffness for element 40 returned. ***
+*** DEBUG: Calling Assembly for element 40... ***
+*** DEBUG: Assembly for element 40 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 40. ***
+*** DEBUG: Processing Element 41/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 41... ***
+*** DEBUG: ElementStiffness for element 41 returned. ***
+*** DEBUG: Calling Assembly for element 41... ***
+*** DEBUG: Assembly for element 41 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 41. ***
+*** DEBUG: Processing Element 42/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 42... ***
+*** DEBUG: ElementStiffness for element 42 returned. ***
+*** DEBUG: Calling Assembly for element 42... ***
+*** DEBUG: Assembly for element 42 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 42. ***
+*** DEBUG: Processing Element 43/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 43... ***
+*** DEBUG: ElementStiffness for element 43 returned. ***
+*** DEBUG: Calling Assembly for element 43... ***
+*** DEBUG: Assembly for element 43 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 43. ***
+*** DEBUG: Processing Element 44/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 44... ***
+*** DEBUG: ElementStiffness for element 44 returned. ***
+*** DEBUG: Calling Assembly for element 44... ***
+*** DEBUG: Assembly for element 44 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 44. ***
+*** DEBUG: Processing Element 45/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 45... ***
+*** DEBUG: ElementStiffness for element 45 returned. ***
+*** DEBUG: Calling Assembly for element 45... ***
+*** DEBUG: Assembly for element 45 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 45. ***
+*** DEBUG: Processing Element 46/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 46... ***
+*** DEBUG: ElementStiffness for element 46 returned. ***
+*** DEBUG: Calling Assembly for element 46... ***
+*** DEBUG: Assembly for element 46 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 46. ***
+*** DEBUG: Processing Element 47/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 47... ***
+*** DEBUG: ElementStiffness for element 47 returned. ***
+*** DEBUG: Calling Assembly for element 47... ***
+*** DEBUG: Assembly for element 47 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 47. ***
+*** DEBUG: Processing Element 48/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 48... ***
+*** DEBUG: ElementStiffness for element 48 returned. ***
+*** DEBUG: Calling Assembly for element 48... ***
+*** DEBUG: Assembly for element 48 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 48. ***
+*** DEBUG: Processing Element 49/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 49... ***
+*** DEBUG: ElementStiffness for element 49 returned. ***
+*** DEBUG: Calling Assembly for element 49... ***
+*** DEBUG: Assembly for element 49 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 49. ***
+*** DEBUG: Processing Element 50/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 50... ***
+*** DEBUG: ElementStiffness for element 50 returned. ***
+*** DEBUG: Calling Assembly for element 50... ***
+*** DEBUG: Assembly for element 50 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 50. ***
+*** DEBUG: Processing Element 51/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 51... ***
+*** DEBUG: ElementStiffness for element 51 returned. ***
+*** DEBUG: Calling Assembly for element 51... ***
+*** DEBUG: Assembly for element 51 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 51. ***
+*** DEBUG: Processing Element 52/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 52... ***
+*** DEBUG: ElementStiffness for element 52 returned. ***
+*** DEBUG: Calling Assembly for element 52... ***
+*** DEBUG: Assembly for element 52 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 52. ***
+*** DEBUG: Processing Element 53/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 53... ***
+*** DEBUG: ElementStiffness for element 53 returned. ***
+*** DEBUG: Calling Assembly for element 53... ***
+*** DEBUG: Assembly for element 53 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 53. ***
+*** DEBUG: Processing Element 54/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 54... ***
+*** DEBUG: ElementStiffness for element 54 returned. ***
+*** DEBUG: Calling Assembly for element 54... ***
+*** DEBUG: Assembly for element 54 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 54. ***
+*** DEBUG: Processing Element 55/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 55... ***
+*** DEBUG: ElementStiffness for element 55 returned. ***
+*** DEBUG: Calling Assembly for element 55... ***
+*** DEBUG: Assembly for element 55 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 55. ***
+*** DEBUG: Processing Element 56/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 56... ***
+*** DEBUG: ElementStiffness for element 56 returned. ***
+*** DEBUG: Calling Assembly for element 56... ***
+*** DEBUG: Assembly for element 56 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 56. ***
+*** DEBUG: Processing Element 57/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 57... ***
+*** DEBUG: ElementStiffness for element 57 returned. ***
+*** DEBUG: Calling Assembly for element 57... ***
+*** DEBUG: Assembly for element 57 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 57. ***
+*** DEBUG: Processing Element 58/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 58... ***
+*** DEBUG: ElementStiffness for element 58 returned. ***
+*** DEBUG: Calling Assembly for element 58... ***
+*** DEBUG: Assembly for element 58 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 58. ***
+*** DEBUG: Processing Element 59/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 59... ***
+*** DEBUG: ElementStiffness for element 59 returned. ***
+*** DEBUG: Calling Assembly for element 59... ***
+*** DEBUG: Assembly for element 59 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 59. ***
+*** DEBUG: Processing Element 60/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 60... ***
+*** DEBUG: ElementStiffness for element 60 returned. ***
+*** DEBUG: Calling Assembly for element 60... ***
+*** DEBUG: Assembly for element 60 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 60. ***
+*** DEBUG: Processing Element 61/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 61... ***
+*** DEBUG: ElementStiffness for element 61 returned. ***
+*** DEBUG: Calling Assembly for element 61... ***
+*** DEBUG: Assembly for element 61 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 61. ***
+*** DEBUG: Processing Element 62/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 62... ***
+*** DEBUG: ElementStiffness for element 62 returned. ***
+*** DEBUG: Calling Assembly for element 62... ***
+*** DEBUG: Assembly for element 62 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 62. ***
+*** DEBUG: Processing Element 63/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 63... ***
+*** DEBUG: ElementStiffness for element 63 returned. ***
+*** DEBUG: Calling Assembly for element 63... ***
+*** DEBUG: Assembly for element 63 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 63. ***
+*** DEBUG: Processing Element 64/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 64... ***
+*** DEBUG: ElementStiffness for element 64 returned. ***
+*** DEBUG: Calling Assembly for element 64... ***
+*** DEBUG: Assembly for element 64 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 64. ***
+*** DEBUG: Processing Element 65/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 65... ***
+*** DEBUG: ElementStiffness for element 65 returned. ***
+*** DEBUG: Calling Assembly for element 65... ***
+*** DEBUG: Assembly for element 65 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 65. ***
+*** DEBUG: Processing Element 66/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 66... ***
+*** DEBUG: ElementStiffness for element 66 returned. ***
+*** DEBUG: Calling Assembly for element 66... ***
+*** DEBUG: Assembly for element 66 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 66. ***
+*** DEBUG: Processing Element 67/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 67... ***
+*** DEBUG: ElementStiffness for element 67 returned. ***
+*** DEBUG: Calling Assembly for element 67... ***
+*** DEBUG: Assembly for element 67 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 67. ***
+*** DEBUG: Processing Element 68/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 68... ***
+*** DEBUG: ElementStiffness for element 68 returned. ***
+*** DEBUG: Calling Assembly for element 68... ***
+*** DEBUG: Assembly for element 68 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 68. ***
+*** DEBUG: Processing Element 69/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 69... ***
+*** DEBUG: ElementStiffness for element 69 returned. ***
+*** DEBUG: Calling Assembly for element 69... ***
+*** DEBUG: Assembly for element 69 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 69. ***
+*** DEBUG: Processing Element 70/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 70... ***
+*** DEBUG: ElementStiffness for element 70 returned. ***
+*** DEBUG: Calling Assembly for element 70... ***
+*** DEBUG: Assembly for element 70 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 70. ***
+*** DEBUG: Processing Element 71/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 71... ***
+*** DEBUG: ElementStiffness for element 71 returned. ***
+*** DEBUG: Calling Assembly for element 71... ***
+*** DEBUG: Assembly for element 71 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 71. ***
+*** DEBUG: Processing Element 72/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 72... ***
+*** DEBUG: ElementStiffness for element 72 returned. ***
+*** DEBUG: Calling Assembly for element 72... ***
+*** DEBUG: Assembly for element 72 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 72. ***
+*** DEBUG: Processing Element 73/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 73... ***
+*** DEBUG: ElementStiffness for element 73 returned. ***
+*** DEBUG: Calling Assembly for element 73... ***
+*** DEBUG: Assembly for element 73 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 73. ***
+*** DEBUG: Processing Element 74/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 74... ***
+*** DEBUG: ElementStiffness for element 74 returned. ***
+*** DEBUG: Calling Assembly for element 74... ***
+*** DEBUG: Assembly for element 74 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 74. ***
+*** DEBUG: Processing Element 75/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 75... ***
+*** DEBUG: ElementStiffness for element 75 returned. ***
+*** DEBUG: Calling Assembly for element 75... ***
+*** DEBUG: Assembly for element 75 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 75. ***
+*** DEBUG: Processing Element 76/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 76... ***
+*** DEBUG: ElementStiffness for element 76 returned. ***
+*** DEBUG: Calling Assembly for element 76... ***
+*** DEBUG: Assembly for element 76 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 76. ***
+*** DEBUG: Processing Element 77/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 77... ***
+*** DEBUG: ElementStiffness for element 77 returned. ***
+*** DEBUG: Calling Assembly for element 77... ***
+*** DEBUG: Assembly for element 77 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 77. ***
+*** DEBUG: Processing Element 78/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 78... ***
+*** DEBUG: ElementStiffness for element 78 returned. ***
+*** DEBUG: Calling Assembly for element 78... ***
+*** DEBUG: Assembly for element 78 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 78. ***
+*** DEBUG: Processing Element 79/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 79... ***
+*** DEBUG: ElementStiffness for element 79 returned. ***
+*** DEBUG: Calling Assembly for element 79... ***
+*** DEBUG: Assembly for element 79 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 79. ***
+*** DEBUG: Processing Element 80/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 80... ***
+*** DEBUG: ElementStiffness for element 80 returned. ***
+*** DEBUG: Calling Assembly for element 80... ***
+*** DEBUG: Assembly for element 80 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 80. ***
+*** DEBUG: Processing Element 81/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 81... ***
+*** DEBUG: ElementStiffness for element 81 returned. ***
+*** DEBUG: Calling Assembly for element 81... ***
+*** DEBUG: Assembly for element 81 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 81. ***
+*** DEBUG: Processing Element 82/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 82... ***
+*** DEBUG: ElementStiffness for element 82 returned. ***
+*** DEBUG: Calling Assembly for element 82... ***
+*** DEBUG: Assembly for element 82 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 82. ***
+*** DEBUG: Processing Element 83/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 83... ***
+*** DEBUG: ElementStiffness for element 83 returned. ***
+*** DEBUG: Calling Assembly for element 83... ***
+*** DEBUG: Assembly for element 83 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 83. ***
+*** DEBUG: Processing Element 84/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 84... ***
+*** DEBUG: ElementStiffness for element 84 returned. ***
+*** DEBUG: Calling Assembly for element 84... ***
+*** DEBUG: Assembly for element 84 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 84. ***
+*** DEBUG: Processing Element 85/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 85... ***
+*** DEBUG: ElementStiffness for element 85 returned. ***
+*** DEBUG: Calling Assembly for element 85... ***
+*** DEBUG: Assembly for element 85 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 85. ***
+*** DEBUG: Processing Element 86/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 86... ***
+*** DEBUG: ElementStiffness for element 86 returned. ***
+*** DEBUG: Calling Assembly for element 86... ***
+*** DEBUG: Assembly for element 86 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 86. ***
+*** DEBUG: Processing Element 87/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 87... ***
+*** DEBUG: ElementStiffness for element 87 returned. ***
+*** DEBUG: Calling Assembly for element 87... ***
+*** DEBUG: Assembly for element 87 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 87. ***
+*** DEBUG: Processing Element 88/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 88... ***
+*** DEBUG: ElementStiffness for element 88 returned. ***
+*** DEBUG: Calling Assembly for element 88... ***
+*** DEBUG: Assembly for element 88 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 88. ***
+*** DEBUG: Processing Element 89/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 89... ***
+*** DEBUG: ElementStiffness for element 89 returned. ***
+*** DEBUG: Calling Assembly for element 89... ***
+*** DEBUG: Assembly for element 89 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 89. ***
+*** DEBUG: Processing Element 90/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 90... ***
+*** DEBUG: ElementStiffness for element 90 returned. ***
+*** DEBUG: Calling Assembly for element 90... ***
+*** DEBUG: Assembly for element 90 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 90. ***
+*** DEBUG: Processing Element 91/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 91... ***
+*** DEBUG: ElementStiffness for element 91 returned. ***
+*** DEBUG: Calling Assembly for element 91... ***
+*** DEBUG: Assembly for element 91 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 91. ***
+*** DEBUG: Processing Element 92/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 92... ***
+*** DEBUG: ElementStiffness for element 92 returned. ***
+*** DEBUG: Calling Assembly for element 92... ***
+*** DEBUG: Assembly for element 92 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 92. ***
+*** DEBUG: Processing Element 93/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 93... ***
+*** DEBUG: ElementStiffness for element 93 returned. ***
+*** DEBUG: Calling Assembly for element 93... ***
+*** DEBUG: Assembly for element 93 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 93. ***
+*** DEBUG: Processing Element 94/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 94... ***
+*** DEBUG: ElementStiffness for element 94 returned. ***
+*** DEBUG: Calling Assembly for element 94... ***
+*** DEBUG: Assembly for element 94 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 94. ***
+*** DEBUG: Processing Element 95/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 95... ***
+*** DEBUG: ElementStiffness for element 95 returned. ***
+*** DEBUG: Calling Assembly for element 95... ***
+*** DEBUG: Assembly for element 95 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 95. ***
+*** DEBUG: Processing Element 96/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 96... ***
+*** DEBUG: ElementStiffness for element 96 returned. ***
+*** DEBUG: Calling Assembly for element 96... ***
+*** DEBUG: Assembly for element 96 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 96. ***
+*** DEBUG: Processing Element 97/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 97... ***
+*** DEBUG: ElementStiffness for element 97 returned. ***
+*** DEBUG: Calling Assembly for element 97... ***
+*** DEBUG: Assembly for element 97 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 97. ***
+*** DEBUG: Processing Element 98/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 98... ***
+*** DEBUG: ElementStiffness for element 98 returned. ***
+*** DEBUG: Calling Assembly for element 98... ***
+*** DEBUG: Assembly for element 98 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 98. ***
+*** DEBUG: Processing Element 99/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 99... ***
+*** DEBUG: ElementStiffness for element 99 returned. ***
+*** DEBUG: Calling Assembly for element 99... ***
+*** DEBUG: Assembly for element 99 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 99. ***
+*** DEBUG: Processing Element 100/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 100... ***
+*** DEBUG: ElementStiffness for element 100 returned. ***
+*** DEBUG: Calling Assembly for element 100... ***
+*** DEBUG: Assembly for element 100 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 100. ***
+*** DEBUG: Processing Element 101/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 101... ***
+*** DEBUG: ElementStiffness for element 101 returned. ***
+*** DEBUG: Calling Assembly for element 101... ***
+*** DEBUG: Assembly for element 101 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 101. ***
+*** DEBUG: Processing Element 102/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 102... ***
+*** DEBUG: ElementStiffness for element 102 returned. ***
+*** DEBUG: Calling Assembly for element 102... ***
+*** DEBUG: Assembly for element 102 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 102. ***
+*** DEBUG: Processing Element 103/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 103... ***
+*** DEBUG: ElementStiffness for element 103 returned. ***
+*** DEBUG: Calling Assembly for element 103... ***
+*** DEBUG: Assembly for element 103 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 103. ***
+*** DEBUG: Processing Element 104/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 104... ***
+*** DEBUG: ElementStiffness for element 104 returned. ***
+*** DEBUG: Calling Assembly for element 104... ***
+*** DEBUG: Assembly for element 104 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 104. ***
+*** DEBUG: Processing Element 105/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 105... ***
+*** DEBUG: ElementStiffness for element 105 returned. ***
+*** DEBUG: Calling Assembly for element 105... ***
+*** DEBUG: Assembly for element 105 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 105. ***
+*** DEBUG: Processing Element 106/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 106... ***
+*** DEBUG: ElementStiffness for element 106 returned. ***
+*** DEBUG: Calling Assembly for element 106... ***
+*** DEBUG: Assembly for element 106 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 106. ***
+*** DEBUG: Processing Element 107/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 107... ***
+*** DEBUG: ElementStiffness for element 107 returned. ***
+*** DEBUG: Calling Assembly for element 107... ***
+*** DEBUG: Assembly for element 107 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 107. ***
+*** DEBUG: Processing Element 108/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 108... ***
+*** DEBUG: ElementStiffness for element 108 returned. ***
+*** DEBUG: Calling Assembly for element 108... ***
+*** DEBUG: Assembly for element 108 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 108. ***
+*** DEBUG: Processing Element 109/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 109... ***
+*** DEBUG: ElementStiffness for element 109 returned. ***
+*** DEBUG: Calling Assembly for element 109... ***
+*** DEBUG: Assembly for element 109 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 109. ***
+*** DEBUG: Processing Element 110/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 110... ***
+*** DEBUG: ElementStiffness for element 110 returned. ***
+*** DEBUG: Calling Assembly for element 110... ***
+*** DEBUG: Assembly for element 110 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 110. ***
+*** DEBUG: Processing Element 111/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 111... ***
+*** DEBUG: ElementStiffness for element 111 returned. ***
+*** DEBUG: Calling Assembly for element 111... ***
+*** DEBUG: Assembly for element 111 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 111. ***
+*** DEBUG: Processing Element 112/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 112... ***
+*** DEBUG: ElementStiffness for element 112 returned. ***
+*** DEBUG: Calling Assembly for element 112... ***
+*** DEBUG: Assembly for element 112 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 112. ***
+*** DEBUG: Processing Element 113/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 113... ***
+*** DEBUG: ElementStiffness for element 113 returned. ***
+*** DEBUG: Calling Assembly for element 113... ***
+*** DEBUG: Assembly for element 113 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 113. ***
+*** DEBUG: Processing Element 114/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 114... ***
+*** DEBUG: ElementStiffness for element 114 returned. ***
+*** DEBUG: Calling Assembly for element 114... ***
+*** DEBUG: Assembly for element 114 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 114. ***
+*** DEBUG: Processing Element 115/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 115... ***
+*** DEBUG: ElementStiffness for element 115 returned. ***
+*** DEBUG: Calling Assembly for element 115... ***
+*** DEBUG: Assembly for element 115 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 115. ***
+*** DEBUG: Processing Element 116/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 116... ***
+*** DEBUG: ElementStiffness for element 116 returned. ***
+*** DEBUG: Calling Assembly for element 116... ***
+*** DEBUG: Assembly for element 116 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 116. ***
+*** DEBUG: Processing Element 117/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 117... ***
+*** DEBUG: ElementStiffness for element 117 returned. ***
+*** DEBUG: Calling Assembly for element 117... ***
+*** DEBUG: Assembly for element 117 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 117. ***
+*** DEBUG: Processing Element 118/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 118... ***
+*** DEBUG: ElementStiffness for element 118 returned. ***
+*** DEBUG: Calling Assembly for element 118... ***
+*** DEBUG: Assembly for element 118 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 118. ***
+*** DEBUG: Processing Element 119/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 119... ***
+*** DEBUG: ElementStiffness for element 119 returned. ***
+*** DEBUG: Calling Assembly for element 119... ***
+*** DEBUG: Assembly for element 119 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 119. ***
+*** DEBUG: Processing Element 120/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 120... ***
+*** DEBUG: ElementStiffness for element 120 returned. ***
+*** DEBUG: Calling Assembly for element 120... ***
+*** DEBUG: Assembly for element 120 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 120. ***
+*** DEBUG: Processing Element 121/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 121... ***
+*** DEBUG: ElementStiffness for element 121 returned. ***
+*** DEBUG: Calling Assembly for element 121... ***
+*** DEBUG: Assembly for element 121 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 121. ***
+*** DEBUG: Processing Element 122/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 122... ***
+*** DEBUG: ElementStiffness for element 122 returned. ***
+*** DEBUG: Calling Assembly for element 122... ***
+*** DEBUG: Assembly for element 122 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 122. ***
+*** DEBUG: Processing Element 123/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 123... ***
+*** DEBUG: ElementStiffness for element 123 returned. ***
+*** DEBUG: Calling Assembly for element 123... ***
+*** DEBUG: Assembly for element 123 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 123. ***
+*** DEBUG: Processing Element 124/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 124... ***
+*** DEBUG: ElementStiffness for element 124 returned. ***
+*** DEBUG: Calling Assembly for element 124... ***
+*** DEBUG: Assembly for element 124 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 124. ***
+*** DEBUG: Processing Element 125/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 125... ***
+*** DEBUG: ElementStiffness for element 125 returned. ***
+*** DEBUG: Calling Assembly for element 125... ***
+*** DEBUG: Assembly for element 125 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 125. ***
+*** DEBUG: Processing Element 126/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 126... ***
+*** DEBUG: ElementStiffness for element 126 returned. ***
+*** DEBUG: Calling Assembly for element 126... ***
+*** DEBUG: Assembly for element 126 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 126. ***
+*** DEBUG: Processing Element 127/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 127... ***
+*** DEBUG: ElementStiffness for element 127 returned. ***
+*** DEBUG: Calling Assembly for element 127... ***
+*** DEBUG: Assembly for element 127 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 127. ***
+*** DEBUG: Processing Element 128/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 128... ***
+*** DEBUG: ElementStiffness for element 128 returned. ***
+*** DEBUG: Calling Assembly for element 128... ***
+*** DEBUG: Assembly for element 128 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 128. ***
+*** DEBUG: Processing Element 129/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 129... ***
+*** DEBUG: ElementStiffness for element 129 returned. ***
+*** DEBUG: Calling Assembly for element 129... ***
+*** DEBUG: Assembly for element 129 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 129. ***
+*** DEBUG: Processing Element 130/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 130... ***
+*** DEBUG: ElementStiffness for element 130 returned. ***
+*** DEBUG: Calling Assembly for element 130... ***
+*** DEBUG: Assembly for element 130 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 130. ***
+*** DEBUG: Processing Element 131/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 131... ***
+*** DEBUG: ElementStiffness for element 131 returned. ***
+*** DEBUG: Calling Assembly for element 131... ***
+*** DEBUG: Assembly for element 131 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 131. ***
+*** DEBUG: Processing Element 132/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 132... ***
+*** DEBUG: ElementStiffness for element 132 returned. ***
+*** DEBUG: Calling Assembly for element 132... ***
+*** DEBUG: Assembly for element 132 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 132. ***
+*** DEBUG: Processing Element 133/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 133... ***
+*** DEBUG: ElementStiffness for element 133 returned. ***
+*** DEBUG: Calling Assembly for element 133... ***
+*** DEBUG: Assembly for element 133 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 133. ***
+*** DEBUG: Processing Element 134/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 134... ***
+*** DEBUG: ElementStiffness for element 134 returned. ***
+*** DEBUG: Calling Assembly for element 134... ***
+*** DEBUG: Assembly for element 134 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 134. ***
+*** DEBUG: Processing Element 135/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 135... ***
+*** DEBUG: ElementStiffness for element 135 returned. ***
+*** DEBUG: Calling Assembly for element 135... ***
+*** DEBUG: Assembly for element 135 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 135. ***
+*** DEBUG: Processing Element 136/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 136... ***
+*** DEBUG: ElementStiffness for element 136 returned. ***
+*** DEBUG: Calling Assembly for element 136... ***
+*** DEBUG: Assembly for element 136 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 136. ***
+*** DEBUG: Processing Element 137/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 137... ***
+*** DEBUG: ElementStiffness for element 137 returned. ***
+*** DEBUG: Calling Assembly for element 137... ***
+*** DEBUG: Assembly for element 137 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 137. ***
+*** DEBUG: Processing Element 138/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 138... ***
+*** DEBUG: ElementStiffness for element 138 returned. ***
+*** DEBUG: Calling Assembly for element 138... ***
+*** DEBUG: Assembly for element 138 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 138. ***
+*** DEBUG: Processing Element 139/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 139... ***
+*** DEBUG: ElementStiffness for element 139 returned. ***
+*** DEBUG: Calling Assembly for element 139... ***
+*** DEBUG: Assembly for element 139 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 139. ***
+*** DEBUG: Processing Element 140/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 140... ***
+*** DEBUG: ElementStiffness for element 140 returned. ***
+*** DEBUG: Calling Assembly for element 140... ***
+*** DEBUG: Assembly for element 140 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 140. ***
+*** DEBUG: Processing Element 141/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 141... ***
+*** DEBUG: ElementStiffness for element 141 returned. ***
+*** DEBUG: Calling Assembly for element 141... ***
+*** DEBUG: Assembly for element 141 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 141. ***
+*** DEBUG: Processing Element 142/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 142... ***
+*** DEBUG: ElementStiffness for element 142 returned. ***
+*** DEBUG: Calling Assembly for element 142... ***
+*** DEBUG: Assembly for element 142 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 142. ***
+*** DEBUG: Processing Element 143/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 143... ***
+*** DEBUG: ElementStiffness for element 143 returned. ***
+*** DEBUG: Calling Assembly for element 143... ***
+*** DEBUG: Assembly for element 143 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 143. ***
+*** DEBUG: Processing Element 144/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 144... ***
+*** DEBUG: ElementStiffness for element 144 returned. ***
+*** DEBUG: Calling Assembly for element 144... ***
+*** DEBUG: Assembly for element 144 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 144. ***
+*** DEBUG: Processing Element 145/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 145... ***
+*** DEBUG: ElementStiffness for element 145 returned. ***
+*** DEBUG: Calling Assembly for element 145... ***
+*** DEBUG: Assembly for element 145 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 145. ***
+*** DEBUG: Processing Element 146/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 146... ***
+*** DEBUG: ElementStiffness for element 146 returned. ***
+*** DEBUG: Calling Assembly for element 146... ***
+*** DEBUG: Assembly for element 146 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 146. ***
+*** DEBUG: Processing Element 147/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 147... ***
+*** DEBUG: ElementStiffness for element 147 returned. ***
+*** DEBUG: Calling Assembly for element 147... ***
+*** DEBUG: Assembly for element 147 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 147. ***
+*** DEBUG: Processing Element 148/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 148... ***
+*** DEBUG: ElementStiffness for element 148 returned. ***
+*** DEBUG: Calling Assembly for element 148... ***
+*** DEBUG: Assembly for element 148 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 148. ***
+*** DEBUG: Processing Element 149/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 149... ***
+*** DEBUG: ElementStiffness for element 149 returned. ***
+*** DEBUG: Calling Assembly for element 149... ***
+*** DEBUG: Assembly for element 149 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 149. ***
+*** DEBUG: Processing Element 150/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 150... ***
+*** DEBUG: ElementStiffness for element 150 returned. ***
+*** DEBUG: Calling Assembly for element 150... ***
+*** DEBUG: Assembly for element 150 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 150. ***
+*** DEBUG: Processing Element 151/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 151... ***
+*** DEBUG: ElementStiffness for element 151 returned. ***
+*** DEBUG: Calling Assembly for element 151... ***
+*** DEBUG: Assembly for element 151 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 151. ***
+*** DEBUG: Processing Element 152/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 152... ***
+*** DEBUG: ElementStiffness for element 152 returned. ***
+*** DEBUG: Calling Assembly for element 152... ***
+*** DEBUG: Assembly for element 152 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 152. ***
+*** DEBUG: Processing Element 153/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 153... ***
+*** DEBUG: ElementStiffness for element 153 returned. ***
+*** DEBUG: Calling Assembly for element 153... ***
+*** DEBUG: Assembly for element 153 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 153. ***
+*** DEBUG: Processing Element 154/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 154... ***
+*** DEBUG: ElementStiffness for element 154 returned. ***
+*** DEBUG: Calling Assembly for element 154... ***
+*** DEBUG: Assembly for element 154 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 154. ***
+*** DEBUG: Processing Element 155/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 155... ***
+*** DEBUG: ElementStiffness for element 155 returned. ***
+*** DEBUG: Calling Assembly for element 155... ***
+*** DEBUG: Assembly for element 155 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 155. ***
+*** DEBUG: Processing Element 156/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 156... ***
+*** DEBUG: ElementStiffness for element 156 returned. ***
+*** DEBUG: Calling Assembly for element 156... ***
+*** DEBUG: Assembly for element 156 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 156. ***
+*** DEBUG: Processing Element 157/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 157... ***
+*** DEBUG: ElementStiffness for element 157 returned. ***
+*** DEBUG: Calling Assembly for element 157... ***
+*** DEBUG: Assembly for element 157 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 157. ***
+*** DEBUG: Processing Element 158/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 158... ***
+*** DEBUG: ElementStiffness for element 158 returned. ***
+*** DEBUG: Calling Assembly for element 158... ***
+*** DEBUG: Assembly for element 158 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 158. ***
+*** DEBUG: Processing Element 159/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 159... ***
+*** DEBUG: ElementStiffness for element 159 returned. ***
+*** DEBUG: Calling Assembly for element 159... ***
+*** DEBUG: Assembly for element 159 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 159. ***
+*** DEBUG: Processing Element 160/160 in group 1 ***
+*** DEBUG: Element stiffness matrix size: 36 ***
+*** DEBUG: Allocated temporary kes array. ***
+*** DEBUG: Calling ElementStiffness for element 160... ***
+*** DEBUG: ElementStiffness for element 160 returned. ***
+*** DEBUG: Calling Assembly for element 160... ***
+*** DEBUG: Assembly for element 160 returned. ***
+*** DEBUG: Deallocated temporary kes array for element 160. ***
+
+*** DEBUG: Exiting AssembleStiffnessMatrix. ***
+ LOAD CASE    1
+
+
+ D I S P L A C E M E N T S
+
+  NODE           X-DISPLACEMENT    Y-DISPLACEMENT    Z-DISPLACEMENT
+    1               0.00000e+00       0.00000e+00       0.00000e+00
+    2              -1.62185e-07       1.20185e-06       0.00000e+00
+    3               1.01859e-07      -3.88924e-06       0.00000e+00
+    4              -4.41528e-07      -2.11745e-06       0.00000e+00
+    5              -1.44961e-07      -3.23399e-06       0.00000e+00
+    6              -1.92485e-07      -5.19212e-06       0.00000e+00
+    7              -3.60645e-07      -4.17835e-06       0.00000e+00
+    8              -4.94816e-08      -6.36547e-06       0.00000e+00
+    9              -3.79340e-07      -5.37639e-06       0.00000e+00
+   10              -2.01460e-07      -5.93802e-06       0.00000e+00
+   11              -2.75406e-07      -6.43740e-06       0.00000e+00
+   12              -3.49104e-07      -5.82820e-06       0.00000e+00
+   13              -8.01541e-08      -7.16167e-06       0.00000e+00
+   14              -2.88199e-07      -5.86667e-06       0.00000e+00
+   15               2.12681e-08      -6.11210e-06       0.00000e+00
+   16              -1.34085e-07      -4.77055e-06       0.00000e+00
+   17              -1.68120e-07      -3.42772e-06       0.00000e+00
+   18               2.13490e-07      -3.80148e-06       0.00000e+00
+   19              -1.21765e-08      -7.57267e-07       0.00000e+00
+   20              -4.07270e-08      -5.00509e-07       0.00000e+00
+   21              -1.74196e-07      -1.96168e-07       0.00000e+00
+   22               0.00000e+00       0.00000e+00       0.00000e+00
+   23              -7.74582e-08       4.59603e-06       0.00000e+00
+   24               4.86855e-07       1.83026e-06       0.00000e+00
+   25               2.91793e-07       5.64364e-06       0.00000e+00
+   26               2.46257e-07       5.40474e-06       0.00000e+00
+   27               1.63546e-07       7.35420e-06       0.00000e+00
+   28               2.82793e-07       9.21123e-06       0.00000e+00
+   29               3.36578e-07       8.91288e-06       0.00000e+00
+   30               3.26079e-07       1.02930e-05       0.00000e+00
+   31               3.78079e-07       9.46421e-06       0.00000e+00
+   32               7.57121e-08       1.03499e-05       0.00000e+00
+   33               1.20136e-07       1.08382e-05       0.00000e+00
+   34              -2.21672e-08       1.08978e-05       0.00000e+00
+   35               5.53412e-08       1.12766e-05       0.00000e+00
+   36               2.53826e-07       9.39513e-06       0.00000e+00
+   37               4.47773e-08       8.33047e-06       0.00000e+00
+   38               2.72477e-07       5.80919e-06       0.00000e+00
+   39              -1.70580e-07       4.88573e-06       0.00000e+00
+   40               1.74853e-07       3.37209e-06       0.00000e+00
+   41               2.83644e-07      -9.22536e-07       0.00000e+00
+   42              -1.15199e-07      -5.12950e-07       0.00000e+00
+   43               0.00000e+00       0.00000e+00       0.00000e+00
+   44              -4.41000e-07      -3.07567e-06       0.00000e+00
+   45              -2.94208e-07      -1.05392e-06       0.00000e+00
+   46              -2.03107e-07      -1.83076e-06       0.00000e+00
+   47              -4.51931e-08      -3.78000e-06       0.00000e+00
+   48              -1.19344e-07      -3.06058e-06       0.00000e+00
+   49              -2.90781e-07      -4.50824e-06       0.00000e+00
+   50              -4.20949e-07      -3.07286e-06       0.00000e+00
+   51              -7.60496e-08      -3.32033e-06       0.00000e+00
+   52              -6.75647e-08      -3.27032e-06       0.00000e+00
+   53               3.48186e-07      -3.38606e-06       0.00000e+00
+   54               2.20105e-07      -4.48262e-06       0.00000e+00
+   55              -2.98342e-08      -3.62325e-06       0.00000e+00
+   56              -9.44187e-08      -3.51381e-06       0.00000e+00
+   57              -3.97459e-07      -1.82104e-06       0.00000e+00
+   58               4.34985e-08      -9.28527e-07       0.00000e+00
+   59               2.88724e-07      -4.83761e-07       0.00000e+00
+   60               5.58517e-07      -3.67620e-07       0.00000e+00
+   61               1.23253e-06      -1.16968e-06       0.00000e+00
+   62               1.79760e-07       3.18235e-06       0.00000e+00
+   63               3.37823e-06       1.08361e-06       0.00000e+00
+   64               0.00000e+00       0.00000e+00       0.00000e+00
+   65               9.89563e-07      -1.52449e-06       0.00000e+00
+   66               1.25003e-07       1.25254e-06       0.00000e+00
+   67               1.82542e-07       3.54037e-07       0.00000e+00
+   68               1.90595e-07       2.30118e-06       0.00000e+00
+   69               4.48436e-07       1.24861e-06       0.00000e+00
+   70               2.66520e-07       9.08790e-07       0.00000e+00
+   71               3.18550e-07       5.90288e-07       0.00000e+00
+   72              -4.20333e-07       3.06284e-07       0.00000e+00
+   73              -4.01424e-07       1.42543e-06       0.00000e+00
+   74              -4.06436e-07       1.26692e-06       0.00000e+00
+   75              -1.67023e-07       1.83402e-06       0.00000e+00
+   76               4.34599e-07       8.56124e-07       0.00000e+00
+   77               2.77987e-07      -6.04367e-08       0.00000e+00
+   78               1.77569e-07      -4.34585e-07       0.00000e+00
+   79              -1.92765e-07      -8.34459e-07       0.00000e+00
+   80              -5.48193e-07       5.85301e-08       0.00000e+00
+   81               1.79537e-07       1.30713e-07       0.00000e+00
+   82               8.43338e-07       2.55151e-07       0.00000e+00
+   83               2.69378e-06      -4.27846e-06       0.00000e+00
+   84               5.26849e-06      -5.18235e-06       0.00000e+00
+   85               0.00000e+00       0.00000e+00       0.00000e+00
+   86              -1.30448e-06       1.44237e-06       0.00000e+00
+   87              -2.33224e-07      -1.23883e-06       0.00000e+00
+   88              -6.65748e-07      -1.17905e-06       0.00000e+00
+   89              -3.46782e-07      -4.83435e-07       0.00000e+00
+   90              -6.87689e-07      -1.75894e-07       0.00000e+00
+   91               2.40788e-07       6.69293e-07       0.00000e+00
+   92               3.20780e-07      -1.22449e-07       0.00000e+00
+   93               7.57782e-07      -2.33989e-07       0.00000e+00
+   94               6.47748e-07      -1.17038e-06       0.00000e+00
+   95              -2.14249e-07      -7.74566e-07       0.00000e+00
+   96              -2.60575e-07      -2.13864e-07       0.00000e+00
+   97              -8.27261e-07       3.30832e-07       0.00000e+00
+   98              -2.88908e-07       1.23391e-06       0.00000e+00
+   99               2.89524e-08       5.66777e-07       0.00000e+00
+  100               3.01020e-07       1.04329e-07       0.00000e+00
+  101              -1.36670e-07      -3.43822e-07       0.00000e+00
+  102               6.68415e-09      -7.03922e-07       0.00000e+00
+  103              -7.96686e-07       3.58418e-08       0.00000e+00
+  104               2.42142e-06       2.28327e-06       0.00000e+00
+  105               5.91972e-06       7.58219e-07       0.00000e+00
+  106               0.00000e+00       0.00000e+00       0.00000e+00
+  107               2.36812e-06       1.41491e-06       0.00000e+00
+  108               4.35829e-07       4.14151e-07       0.00000e+00
+  109               1.33535e-06       4.37428e-07       0.00000e+00
+  110               1.10803e-08      -7.29929e-07       0.00000e+00
+  111              -6.58396e-09      -4.97223e-07       0.00000e+00
+  112              -8.37775e-07      -3.23440e-07       0.00000e+00
+  113              -1.12224e-06       6.60332e-07       0.00000e+00
+  114              -2.19131e-07       7.02164e-07       0.00000e+00
+  115              -1.99944e-07       6.09376e-07       0.00000e+00
+  116               1.13456e-06       3.35538e-08       0.00000e+00
+  117               7.01951e-07      -9.66941e-07       0.00000e+00
+  118               5.38924e-07      -6.69539e-07       0.00000e+00
+  119              -1.22248e-07      -7.38528e-07       0.00000e+00
+  120              -7.81926e-07       1.83275e-07       0.00000e+00
+  121              -6.61751e-07       1.13676e-06       0.00000e+00
+  122              -8.68729e-07       9.27315e-07       0.00000e+00
+  123              -1.69557e-07       4.52761e-07       0.00000e+00
+  124              -2.22506e-06       6.40476e-07       0.00000e+00
+  125               2.20004e-06      -3.90484e-06       0.00000e+00
+  126              -8.44261e-07      -2.58091e-06       0.00000e+00
+  127               0.00000e+00       0.00000e+00       0.00000e+00
+  128              -4.16700e-06      -2.04832e-07       0.00000e+00
+  129              -3.31452e-07       4.76247e-07       0.00000e+00
+  130              -7.02045e-07       9.78941e-07       0.00000e+00
+  131               5.79406e-07       5.81671e-07       0.00000e+00
+  132               1.54689e-06      -2.83002e-07       0.00000e+00
+  133               6.11515e-07      -5.04751e-07       0.00000e+00
+  134               1.05086e-06      -8.62372e-07       0.00000e+00
+  135              -9.01807e-07      -3.78762e-07       0.00000e+00
+  136              -8.38551e-07       5.53012e-07       0.00000e+00
+  137              -9.91446e-07       4.86466e-07       0.00000e+00
+  138              -6.29466e-07       1.05669e-06       0.00000e+00
+  139               1.01986e-06      -1.86581e-08       0.00000e+00
+  140               6.81860e-07      -5.49068e-07       0.00000e+00
+  141               1.68047e-06      -8.65534e-07       0.00000e+00
+  142               1.19219e-07      -1.20378e-06       0.00000e+00
+  143               1.71603e-07      -2.94243e-07       0.00000e+00
+  144              -1.93130e-06       1.53599e-06       0.00000e+00
+  145              -2.57120e-06       1.79319e-06       0.00000e+00
+  146              -2.29979e-06       3.82393e-06       0.00000e+00
+  147              -7.25074e-06       5.55860e-06       0.00000e+00
+  148               0.00000e+00       0.00000e+00       0.00000e+00
+  149               4.32517e-06      -2.41247e-06       0.00000e+00
+  150              -3.72768e-07      -7.32709e-07       0.00000e+00
+  151              -1.46251e-06       5.04534e-08       0.00000e+00
+  152              -4.49280e-07       1.36909e-07       0.00000e+00
+  153              -2.33212e-06       1.14161e-06       0.00000e+00
+  154               5.57450e-07       5.61822e-07       0.00000e+00
+  155               1.27441e-07      -1.13518e-07       0.00000e+00
+  156               1.06084e-06      -1.17197e-07       0.00000e+00
+  157               1.51118e-06      -1.18486e-06       0.00000e+00
+  158              -8.18681e-07      -7.93178e-08       0.00000e+00
+  159               2.97269e-07      -1.20817e-07       0.00000e+00
+  160              -2.14672e-06       6.13314e-07       0.00000e+00
+  161              -2.71760e-07       1.06676e-06       0.00000e+00
+  162               6.45722e-08       1.29606e-10       0.00000e+00
+  163               8.48537e-07       2.92070e-08       0.00000e+00
+  164               3.49390e-06      -1.51857e-06       0.00000e+00
+  165               3.91736e-07      -1.88084e-06       0.00000e+00
+  166               3.37608e-06      -1.87318e-06       0.00000e+00
+  167              -4.59200e-06       8.22449e-07       0.00000e+00
+  168              -6.31633e-06       1.46565e-06       0.00000e+00
+  169               0.00000e+00       0.00000e+00       0.00000e+00
+  170              -5.64758e-07       2.52758e-07       0.00000e+00
+  171               2.23203e-06       2.83349e-07       0.00000e+00
+  172               2.19476e-07      -4.43090e-07       0.00000e+00
+  173              -1.91583e-06       2.28231e-07       0.00000e+00
+  174               2.94014e-07       4.11728e-08       0.00000e+00
+  175              -1.62744e-06      -1.97941e-07       0.00000e+00
+  176               5.10914e-07       2.69230e-07       0.00000e+00
+  177               6.41024e-07      -2.66361e-07       0.00000e+00
+  178               3.89283e-08       1.90464e-07       0.00000e+00
+  179               1.49200e-06      -2.92646e-08       0.00000e+00
+  180              -1.36147e-06      -8.54070e-08       0.00000e+00
+  181               4.08553e-07       2.23848e-07       0.00000e+00
+  182              -1.32022e-06      -3.04113e-07       0.00000e+00
+  183              -3.36551e-07       2.21884e-07       0.00000e+00
+  184               1.34188e-06      -2.41269e-07       0.00000e+00
+  185              -3.64678e-07      -4.61152e-08       0.00000e+00
+  186               3.73364e-06       6.47414e-08       0.00000e+00
+  187              -6.40589e-07       4.86545e-08       0.00000e+00
+  188              -1.39465e-06       2.84486e-07       0.00000e+00
+  189               3.61122e-06      -1.28060e-06       0.00000e+00
+
+ S T R E S S  C A L C U L A T I O N S  F O R  E L E M E N T  G R O U P    1
+
+  ELEMENT    GP    Sigma_X    Sigma_Y    Tau_XY     Eps_X      Eps_Y      Gam_XY
+  NUMBER
+  ----------------------------------------------------------------------------------
+    1      1 3.14923e+04 1.24212e+05 3.06268e+04-2.88560e-07 5.73819e-06 3.98149e-06
+           2 1.34857e+05 4.68762e+05 3.36371e+04-2.88560e-07 2.14152e-05 4.37283e-06
+           3 1.37008e+05 4.69407e+05 6.37853e+04-1.90726e-07 2.14152e-05 8.29208e-06
+           4 3.36425e+04 1.24857e+05 6.07750e+04-1.90726e-07 5.73819e-06 7.90075e-06
+      AvgVM:  2.82969e+05
+    2      1 2.19349e+05 6.87497e+05-6.16457e+04 6.54997e-07 3.10846e-05-8.01394e-06
+           2 2.90164e+05 9.23546e+05-5.09774e+04 6.54997e-07 4.18248e-05-6.62706e-06
+           3 2.97784e+05 9.25832e+05-3.03231e+04 1.00172e-06 4.18248e-05-3.94200e-06
+           4 2.26969e+05 6.89783e+05-4.09914e+04 1.00172e-06 3.10846e-05-5.32889e-06
+      AvgVM:  7.18411e+05
+    3      1 3.03796e+05 1.07529e+06 6.21177e+04-9.39555e-07 4.92075e-05 8.07530e-06
+           2 3.65970e+05 1.28254e+06 7.44934e+04-9.39555e-07 5.86373e-05 9.68414e-06
+           3 3.74810e+05 1.28519e+06 9.26275e+04-5.37343e-07 5.86373e-05 1.20416e-05
+           4 3.12636e+05 1.07794e+06 8.02517e+04-5.37343e-07 4.92075e-05 1.04327e-05
+      AvgVM:  1.06106e+06
+    4      1 4.29018e+05 1.40016e+06 2.63544e+04 4.48544e-07 6.35725e-05 3.42607e-06
+           2 4.55745e+05 1.48925e+06 1.41997e+04 4.48544e-07 6.76261e-05 1.84597e-06
+           3 4.47063e+05 1.48664e+06 2.19952e+04 5.35182e-08 6.76261e-05 2.85937e-06
+           4 4.20336e+05 1.39755e+06 3.41498e+04 5.35182e-08 6.35725e-05 4.43948e-06
+      AvgVM:  1.28256e+06
+    5      1 4.96811e+05 1.66336e+06 6.19652e+03-1.09920e-07 7.57160e-05 8.05548e-07
+           2 6.15811e+05 2.06003e+06 4.94634e+03-1.09920e-07 9.37644e-05 6.43024e-07
+           3 6.14918e+05 2.05976e+06 3.96547e+04-1.50551e-07 9.37644e-05 5.15511e-06
+           4 4.95918e+05 1.66310e+06 4.09049e+04-1.50551e-07 7.57160e-05 5.31764e-06
+      AvgVM:  1.65594e+06
+    6      1 6.66462e+05 2.23586e+06 4.39851e+04-2.14848e-07 1.01796e-04 5.71806e-06
+           2 6.92142e+05 2.32146e+06 5.41965e+04-2.14848e-07 1.05691e-04 7.04554e-06
+           3 6.99436e+05 2.32365e+06 6.16866e+04 1.17021e-07 1.05691e-04 8.01926e-06
+           4 6.73755e+05 2.23805e+06 5.14753e+04 1.17021e-07 1.01796e-04 6.69178e-06
+      AvgVM:  2.02860e+06
+    7      1 7.38604e+05 2.42778e+06 8.74182e+03 5.13547e-07 1.10310e-04 1.13644e-06
+           2 7.96124e+05 2.61951e+06-4.02645e+02 5.13547e-07 1.19034e-04-5.23438e-08
+           3 7.89592e+05 2.61755e+06 1.63740e+04 2.16352e-07 1.19034e-04 2.12862e-06
+           4 7.32072e+05 2.42582e+06 2.55185e+04 2.16352e-07 1.10310e-04 3.31740e-06
+      AvgVM:  2.24073e+06
+    8      1 7.98717e+05 2.69737e+06 4.43986e+04-5.24739e-07 1.22888e-04 5.77181e-06
+           2 8.10625e+05 2.73707e+06 5.57452e+04-5.24739e-07 1.24694e-04 7.24687e-06
+           3 8.18730e+05 2.73950e+06 5.92184e+04-1.55975e-07 1.24694e-04 7.69839e-06
+           4 8.06822e+05 2.69980e+06 4.78718e+04-1.55975e-07 1.22888e-04 6.22333e-06
+      AvgVM:  2.41943e+06
+    9      1 8.30188e+05 2.74712e+06 3.22643e+04 3.02557e-07 1.24903e-04 4.19436e-06
+           2 8.22053e+05 2.72001e+06 2.77919e+04 3.02557e-07 1.23669e-04 3.61294e-06
+           3 8.18858e+05 2.71905e+06 2.54190e+04 1.57203e-07 1.23669e-04 3.30446e-06
+           4 8.26994e+05 2.74617e+06 2.98914e+04 1.57203e-07 1.24903e-04 3.88588e-06
+      AvgVM:  2.42871e+06
+   10      1 8.22492e+05 2.75793e+06 2.95136e+04-2.44434e-07 1.25559e-04 3.83676e-06
+           2 8.64671e+05 2.89853e+06 2.13980e+04-2.44434e-07 1.31956e-04 2.78174e-06
+           3 8.58874e+05 2.89679e+06 3.37002e+04-5.08191e-07 1.31956e-04 4.38102e-06
+           4 8.16695e+05 2.75620e+06 4.18158e+04-5.08191e-07 1.25559e-04 5.43605e-06
+      AvgVM:  2.51535e+06
+   11      1 8.81992e+05 2.94647e+06 3.21227e+04-9.74721e-08 1.34094e-04 4.17596e-06
+           2 8.78312e+05 2.93420e+06 3.63195e+04-9.74721e-08 1.33535e-04 4.72154e-06
+           3 8.81309e+05 2.93510e+06 3.52461e+04 3.89237e-08 1.33535e-04 4.58199e-06
+           4 8.84990e+05 2.94737e+06 3.10493e+04 3.89237e-08 1.34094e-04 4.03641e-06
+      AvgVM:  2.61461e+06
+   12      1 9.02636e+05 2.98452e+06 7.54215e+03 3.64084e-07 1.35686e-04 9.80480e-07
+           2 9.45059e+05 3.12592e+06-7.06937e+03 3.64084e-07 1.42120e-04-9.19018e-07
+           3 9.34622e+05 3.12279e+06 5.30388e+03-1.10791e-07 1.42120e-04 6.89504e-07
+           4 8.92199e+05 2.98138e+06 1.99154e+04-1.10791e-07 1.35686e-04 2.58900e-06
+      AvgVM:  2.71366e+06
+   13      1 9.35880e+05 3.13929e+06 2.42264e+04-2.95400e-07 1.42926e-04 3.14943e-06
+           2 9.07979e+05 3.04629e+06 3.43718e+04-2.95400e-07 1.38695e-04 4.46834e-06
+           3 9.15226e+05 3.04846e+06 2.62341e+04 3.43280e-08 1.38695e-04 3.41043e-06
+           4 9.43127e+05 3.14147e+06 1.60886e+04 3.43280e-08 1.42926e-04 2.09152e-06
+      AvgVM:  2.75086e+06
+   14      1 8.98595e+05 2.95718e+06 1.06028e+04 5.72027e-07 1.34380e-04 1.37837e-06
+           2 8.48772e+05 2.79110e+06 6.65976e+03 5.72027e-07 1.26824e-04 8.65768e-07
+           3 8.45955e+05 2.79026e+06-7.87191e+03 4.43876e-07 1.26824e-04-1.02335e-06
+           4 8.95778e+05 2.95634e+06-3.92881e+03 4.43876e-07 1.34380e-04-5.10746e-07
+      AvgVM:  2.55199e+06
+   15      1 7.83815e+05 2.63494e+06 2.64292e+04-3.33401e-07 1.19990e-04 3.43580e-06
+           2 7.10537e+05 2.39068e+06 2.45215e+04-3.33401e-07 1.08876e-04 3.18779e-06
+           3 7.09174e+05 2.39027e+06 3.14886e+03-3.95403e-07 1.08876e-04 4.09351e-07
+           4 7.82452e+05 2.63453e+06 5.05662e+03-3.95403e-07 1.19990e-04 6.57360e-07
+      AvgVM:  2.23513e+06
+   16      1 6.48906e+05 2.16018e+06 2.25069e+04 4.25526e-08 9.82755e-05 2.92589e-06
+           2 5.31229e+05 1.76793e+06 3.18061e+04 4.25526e-08 8.04279e-05 4.13479e-06
+           3 5.37871e+05 1.76992e+06-2.51623e+03 3.44778e-07 8.04279e-05-3.27109e-07
+           4 6.55548e+05 2.16218e+06-1.18155e+04 3.44778e-07 9.82755e-05-1.53601e-06
+      AvgVM:  1.74608e+06
+   17      1 4.90208e+05 1.60638e+06 8.85187e+03 4.14675e-07 7.29659e-05 1.15074e-06
+           2 4.73467e+05 1.55058e+06-2.04479e+04 4.14675e-07 7.04270e-05-2.65823e-06
+           3 4.52539e+05 1.54430e+06-2.53305e+04-5.37569e-07 7.04270e-05-3.29297e-06
+           4 4.69279e+05 1.60010e+06 3.96930e+03-5.37569e-07 7.29659e-05 5.16009e-07
+      AvgVM:  1.40082e+06
+   18      1 4.02806e+05 1.35669e+06 1.58076e+04-2.09958e-07 6.17922e-05 2.05499e-06
+           2 2.64003e+05 8.94008e+05 3.60983e+04-2.09958e-07 4.07404e-05 4.69278e-06
+           3 2.78497e+05 8.98356e+05-4.38592e+03 4.49490e-07 4.07404e-05-5.70170e-07
+           4 4.17300e+05 1.36103e+06-2.46766e+04 4.49490e-07 6.17922e-05-3.20796e-06
+      AvgVM:  1.00254e+06
+   19      1 1.67100e+05 5.56936e+05 2.44843e+03 9.46557e-10 2.53403e-05 3.18296e-07
+           2 2.84935e+04 9.49151e+04 7.32809e+03 9.46557e-10 4.31835e-06 9.52651e-07
+           3 3.19789e+04 9.59608e+04-3.30987e+04 1.59535e-07 4.31835e-06-4.30284e-06
+           4 1.70585e+05 5.57982e+05-3.79784e+04 1.59535e-07 2.53403e-05-4.93719e-06
+      AvgVM:  2.95536e+05
+   20      1-2.94194e+04-7.27915e+04 2.15346e+04-3.79098e-07-3.19829e-06 2.79949e-06
+           2-2.62144e+04-6.21080e+04 1.21060e+04-3.79098e-07-2.71219e-06 1.57378e-06
+           3-3.29490e+04-6.41284e+04 1.30408e+04-6.85525e-07-2.71219e-06 1.69531e-06
+           4-3.61541e+04-7.48119e+04 2.24694e+04-6.85525e-07-3.19829e-06 2.92102e-06
+      AvgVM:  6.67654e+04
+   21      1-9.22966e+04-2.87084e+05 4.10386e+04-3.08567e-07-1.29698e-05 5.33501e-06
+           2-3.25928e+05-1.06585e+06 2.81222e+04-3.08567e-07-4.84038e-05 3.65589e-06
+           3-3.35154e+05-1.06862e+06-4.00202e+04-7.28349e-07-4.84038e-05-5.20263e-06
+           4-1.01523e+05-2.89852e+05-2.71039e+04-7.28349e-07-1.29698e-05-3.52350e-06
+      AvgVM:  6.04765e+05
+   22      1-3.30369e+05-1.16471e+06-5.47868e+04 9.52161e-07-5.32798e-05-7.12228e-06
+           2-1.84572e+05-6.78716e+05-6.96210e+04 9.52161e-07-3.11672e-05-9.05073e-06
+           3-1.95167e+05-6.81895e+05-2.70968e+04 4.70049e-07-3.11672e-05-3.52258e-06
+           4-3.40965e+05-1.16789e+06-1.22626e+04 4.70049e-07-5.32798e-05-1.59413e-06
+      AvgVM:  8.28536e+05
+   23      1-2.09215e+05-6.79438e+05-6.00018e+02-2.69177e-07-3.08337e-05-7.80023e-08
+           2-3.49004e+05-1.14540e+06 9.56713e+03-2.69177e-07-5.20350e-05 1.24373e-06
+           3-3.41742e+05-1.14322e+06-3.12047e+04 6.12553e-08-5.20350e-05-4.05660e-06
+           4-2.01953e+05-6.77259e+05-4.13718e+04 6.12553e-08-3.08337e-05-5.37833e-06
+      AvgVM:  8.11005e+05
+   24      1-4.13431e+05-1.37776e+06-3.70455e+04-5.08356e-09-6.26867e-05-4.81592e-06
+           2-4.65517e+05-1.55138e+06-2.98171e+04-5.08356e-09-7.05864e-05-3.87623e-06
+           3-4.60354e+05-1.54983e+06-4.50089e+04 2.29839e-07-7.05864e-05-5.85115e-06
+           4-4.08268e+05-1.37621e+06-5.22373e+04 2.29839e-07-6.26867e-05-6.79085e-06
+      AvgVM:  1.30361e+06
+   25      1-5.01737e+05-1.66167e+06 8.16854e+03-1.61804e-07-7.55574e-05 1.06191e-06
+           2-5.39196e+05-1.78653e+06 8.47270e+03-1.61804e-07-8.12388e-05 1.10145e-06
+           3-5.38979e+05-1.78647e+06-2.45297e+03-1.51919e-07-8.12388e-05-3.18886e-07
+           4-5.01520e+05-1.66160e+06-2.75713e+03-1.51919e-07-7.55574e-05-3.58427e-07
+      AvgVM:  1.53172e+06
+   26      1-5.83647e+05-1.95320e+06-3.36321e+03 1.15636e-07-8.89052e-05-4.37218e-07
+           2-6.84286e+05-2.28866e+06-1.36910e+04 1.15636e-07-1.04169e-04-1.77983e-06
+           3-6.91663e+05-2.29088e+06-4.30442e+04-2.20018e-07-1.04169e-04-5.59575e-06
+           4-5.91024e+05-1.95541e+06-3.27164e+04-2.20018e-07-8.89052e-05-4.25313e-06
+      AvgVM:  1.88649e+06
+   27      1-7.03683e+05-2.34760e+06-3.66424e+04 2.98232e-08-1.06825e-04-4.76351e-06
+           2-6.50885e+05-2.17160e+06-4.31781e+04 2.98232e-08-9.88170e-05-5.61315e-06
+           3-6.55553e+05-2.17301e+06-2.77786e+04-1.82587e-07-9.88170e-05-3.61122e-06
+           4-7.08352e+05-2.34900e+06-2.12429e+04-1.82587e-07-1.06825e-04-2.76158e-06
+      AvgVM:  2.00949e+06
+   28      1-6.47517e+05-2.16701e+06-2.60543e+04 1.29210e-07-9.86375e-05-3.38706e-06
+           2-6.97083e+05-2.33222e+06-1.34273e+04 1.29210e-07-1.06155e-04-1.74555e-06
+           3-6.88064e+05-2.32952e+06-2.78840e+04 5.39589e-07-1.06155e-04-3.62492e-06
+           4-6.38498e+05-2.16430e+06-4.05110e+04 5.39589e-07-9.86375e-05-5.26643e-06
+      AvgVM:  2.00044e+06
+   29      1-7.06388e+05-2.36033e+06-3.52057e+04 8.56080e-08-1.07421e-04-4.57674e-06
+           2-6.79626e+05-2.27113e+06-3.67517e+04 8.56080e-08-1.03362e-04-4.77772e-06
+           3-6.80730e+05-2.27146e+06-2.89460e+04 3.53614e-08-1.03362e-04-3.76298e-06
+           4-7.07492e+05-2.36067e+06-2.73999e+04 3.53614e-08-1.07421e-04-3.56199e-06
+      AvgVM:  2.05945e+06
+   30      1-6.89494e+05-2.27823e+06-7.71571e+03-3.01221e-07-1.03569e-04-1.00304e-06
+           2-7.19990e+05-2.37988e+06 1.77984e+04-3.01221e-07-1.08194e-04 2.31380e-06
+           3-7.01765e+05-2.37442e+06 8.90379e+03 5.27989e-07-1.08194e-04 1.15749e-06
+           4-6.71269e+05-2.27276e+06-1.66104e+04 5.27989e-07-1.03569e-04-2.15935e-06
+      AvgVM:  2.06834e+06
+   31      1-7.41848e+05-2.47389e+06 1.68845e+04 1.59391e-08-1.12567e-04 2.19498e-06
+           2-7.90114e+05-2.63478e+06 1.07555e+04 1.59391e-08-1.19887e-04 1.39822e-06
+           3-7.94492e+05-2.63609e+06-3.32209e+03-1.83252e-07-1.19887e-04-4.31871e-07
+           4-7.46226e+05-2.47520e+06 2.80687e+03-1.83252e-07-1.12567e-04 3.64892e-07
+      AvgVM:  2.27062e+06
+   32      1-8.06471e+05-2.66623e+06 8.26870e+03-3.30099e-07-1.21214e-04 1.07493e-06
+           2-7.82113e+05-2.58504e+06 4.44447e+03-3.30099e-07-1.17520e-04 5.77781e-07
+           3-7.84845e+05-2.58586e+06 1.15487e+04-4.54387e-07-1.17520e-04 1.50133e-06
+           4-8.09202e+05-2.66705e+06 1.53729e+04-4.54387e-07-1.21214e-04 1.99848e-06
+      AvgVM:  2.33240e+06
+   33      1-7.66859e+05-2.56253e+06 2.63262e+03 9.49613e-08-1.16623e-04 3.42240e-07
+           2-7.75062e+05-2.58987e+06-2.41584e+03 9.49613e-08-1.17868e-04-3.14059e-07
+           3-7.78668e+05-2.59095e+06-4.80856e+03-6.91135e-08-1.17868e-04-6.25113e-07
+           4-7.70465e+05-2.56361e+06 2.39893e+02-6.91135e-08-1.16623e-04 3.11861e-08
+      AvgVM:  2.29032e+06
+   34      1-7.36245e+05-2.46648e+06-3.30632e+04 1.85001e-07-1.12281e-04-4.29822e-06
+           2-6.27397e+05-2.10366e+06-5.08820e+04 1.85001e-07-9.57719e-05-6.61466e-06
+           3-6.40125e+05-2.10748e+06-1.91347e+04-3.94110e-07-9.57719e-05-2.48751e-06
+           4-7.48973e+05-2.47030e+06-1.31585e+03-3.94110e-07-1.12281e-04-1.71061e-07
+      AvgVM:  2.03303e+06
+   35      1-5.72957e+05-1.90030e+06-4.16422e+04-1.43373e-07-8.64205e-05-5.41349e-06
+           2-5.13354e+05-1.70162e+06-1.85480e+04-1.43373e-07-7.73808e-05-2.41124e-06
+           3-4.96858e+05-1.69667e+06-1.16386e+03 6.07189e-07-7.73808e-05-1.51301e-07
+           4-5.56461e+05-1.89535e+06-2.42581e+04 6.07189e-07-8.64205e-05-3.15355e-06
+      AvgVM:  1.60020e+06
+   36      1-4.45153e+05-1.51470e+06-2.89967e+04 4.62807e-07-6.90576e-05-3.76957e-06
+           2-3.54826e+05-1.21361e+06-2.83740e+04 4.62807e-07-5.53580e-05-3.68863e-06
+           3-3.54381e+05-1.21347e+06-2.02866e+03 4.83043e-07-5.53580e-05-2.63726e-07
+           4-4.44708e+05-1.51456e+06-2.65132e+03 4.83043e-07-6.90576e-05-3.44672e-07
+      AvgVM:  1.21511e+06
+   37      1-3.33201e+05-1.07168e+06-5.57030e+02-5.84828e-07-4.85860e-05-7.24139e-08
+           2-3.01541e+05-9.66149e+05 2.47700e+04-5.84828e-07-4.37843e-05 3.22010e-06
+           3-2.83451e+05-9.60722e+05 3.40041e+04 2.38301e-07-4.37843e-05 4.42053e-06
+           4-3.15110e+05-1.06625e+06 8.67701e+03 2.38301e-07-4.85860e-05 1.12801e-06
+      AvgVM:  9.03287e+05
+   38      1-2.50932e+05-8.91756e+05 2.81673e+04 8.29741e-07-4.08238e-05 3.66175e-06
+           2-2.29262e+05-8.19522e+05 3.98417e+04 8.29741e-07-3.75372e-05 5.17942e-06
+           3-2.20923e+05-8.17021e+05 4.61621e+04 1.20916e-06-3.75372e-05 6.00107e-06
+           4-2.42593e+05-8.89254e+05 3.44877e+04 1.20916e-06-4.08238e-05 4.48341e-06
+      AvgVM:  7.67084e+05
+   39      1-1.49191e+05-4.79081e+05 1.20228e+04-2.73352e-07-2.17162e-05 1.56296e-06
+           2 1.14131e+05 3.98661e+05-2.92468e+04-2.73352e-07 1.82211e-05-3.80208e-06
+           3 8.46529e+04 3.89817e+05 4.75556e+04-1.61461e-06 1.82211e-05 6.18223e-06
+           4-1.78669e+05-4.87924e+05 8.88252e+04-1.61461e-06-2.17162e-05 1.15473e-05
+      AvgVM:  4.00825e+05
+   40      1 2.04446e+05 6.33304e+05 3.85351e+04 7.22716e-07 2.85985e-05 5.00956e-06
+           2 1.28058e+05 3.78679e+05 1.66345e+05 7.22716e-07 1.70131e-05 2.16248e-05
+           3 2.19351e+05 4.06066e+05 1.44065e+05 4.87653e-06 1.70131e-05 1.87285e-05
+           4 2.95738e+05 6.60692e+05 1.62553e+04 4.87653e-06 2.85985e-05 2.11319e-06
+      AvgVM:  5.02503e+05
+   41      1 1.11947e+04 5.58070e+04-2.36710e+04-2.77372e-07 2.62243e-06-3.07722e-06
+           2 5.84339e+04 2.13271e+05 2.71559e+04-2.77372e-07 9.78704e-06 3.53026e-06
+           3 9.47387e+04 2.24163e+05 4.09340e+04 1.37450e-06 9.78704e-06 5.32142e-06
+           4 4.74995e+04 6.66985e+04-9.89285e+03 1.37450e-06 2.62243e-06-1.28607e-06
+      AvgVM:  1.32856e+05
+   42      1 8.72976e+04 2.99916e+05 1.08442e+05-1.33864e-07 1.36863e-05 1.40974e-05
+           2 1.10298e+05 3.76586e+05 7.25092e+04-1.33864e-07 1.71748e-05 9.42620e-06
+           3 8.46324e+04 3.68886e+05 7.92178e+04-1.30167e-06 1.71748e-05 1.02983e-05
+           4 6.16314e+04 2.92216e+05 1.15150e+05-1.30167e-06 1.36863e-05 1.49696e-05
+      AvgVM:  3.44877e+05
+   43      1 1.23996e+05 4.02119e+05 1.30142e+04 1.68017e-07 1.82460e-05 1.69185e-06
+           2 1.20291e+05 3.89768e+05 1.18217e+04 1.68017e-07 1.76840e-05 1.53683e-06
+           3 1.19439e+05 3.89513e+05 1.07411e+04 1.29262e-07 1.76840e-05 1.39634e-06
+           4 1.23144e+05 4.01863e+05 1.19335e+04 1.29262e-07 1.82460e-05 1.55136e-06
+      AvgVM:  3.51756e+05
+   44      1 1.64223e+05 5.30578e+05 4.46279e+03 2.52489e-07 2.40656e-05 5.80163e-07
+           2 2.82882e+05 9.26108e+05-8.61621e+02 2.52489e-07 4.20622e-05-1.12011e-07
+           3 2.79079e+05 9.24967e+05 3.37472e+04 7.94456e-08 4.20622e-05 4.38714e-06
+           4 1.60420e+05 5.29438e+05 3.90716e+04 7.94456e-08 2.40656e-05 5.07931e-06
+      AvgVM:  6.47869e+05
+   45      1 3.00838e+05 1.00333e+06 2.41344e+04-7.98500e-09 4.56537e-05 3.13747e-06
+           2 2.46875e+05 8.23448e+05 3.59298e+04-7.98500e-09 3.74693e-05 4.67087e-06
+           3 2.55300e+05 8.25975e+05 2.01905e+04 3.75366e-07 3.74693e-05 2.62476e-06
+           4 3.09263e+05 1.00585e+06 8.39508e+03 3.75366e-07 4.56537e-05 1.09136e-06
+      AvgVM:  8.13292e+05
+   46      1 2.32014e+05 7.96533e+05 1.61342e+04-3.47304e-07 3.63465e-05 2.09744e-06
+           2 2.65751e+05 9.08992e+05 1.57619e+04-3.47304e-07 4.14633e-05 2.04905e-06
+           3 2.65486e+05 9.08912e+05 2.56020e+04-3.59403e-07 4.14633e-05 3.32826e-06
+           4 2.31748e+05 7.96453e+05 2.59743e+04-3.59403e-07 3.63465e-05 3.37666e-06
+      AvgVM:  7.60450e+05
+   47      1 2.62154e+05 8.86068e+05 5.30455e+04-1.83329e-07 4.03711e-05 6.89592e-06
+           2 2.08742e+05 7.08028e+05 5.95189e+04-1.83329e-07 3.22703e-05 7.73745e-06
+           3 2.13366e+05 7.09415e+05 4.39403e+04 2.70548e-08 3.22703e-05 5.71224e-06
+           4 2.66778e+05 8.87456e+05 3.74670e+04 2.70548e-08 4.03711e-05 4.87071e-06
+      AvgVM:  7.14644e+05
+   48      1 1.97907e+05 6.44240e+05 2.74874e+04 2.31738e-07 2.92434e-05 3.57336e-06
+           2 1.96794e+05 6.40532e+05-1.10186e+04 2.31738e-07 2.90747e-05-1.43241e-06
+           3 1.69290e+05 6.32281e+05-1.13430e+04-1.01971e-06 2.90747e-05-1.47459e-06
+           4 1.70403e+05 6.35989e+05 2.71629e+04-1.01971e-06 2.92434e-05 3.53118e-06
+      AvgVM:  5.70398e+05
+   49      1 2.03681e+05 6.77512e+05-1.68058e+04 2.13756e-08 3.08204e-05-2.18475e-06
+           2 2.36240e+05 7.86042e+05-1.64354e+04 2.13756e-08 3.57585e-05-2.13660e-06
+           3 2.36505e+05 7.86122e+05-6.93902e+03 3.34125e-08 3.57585e-05-9.02073e-07
+           4 2.03946e+05 6.77592e+05-7.30939e+03 3.34125e-08 3.08204e-05-9.50220e-07
+      AvgVM:  6.50710e+05
+   50      1 2.61577e+05 8.28347e+05-2.79367e+04 6.53666e-07 3.74937e-05-3.63177e-06
+           2 2.60275e+05 8.24006e+05-4.28861e+04 6.53666e-07 3.72962e-05-5.57519e-06
+           3 2.49597e+05 8.20802e+05-4.32659e+04 1.67811e-07 3.72962e-05-5.62457e-06
+           4 2.50899e+05 8.25144e+05-2.83166e+04 1.67811e-07 3.74937e-05-3.68115e-06
+      AvgVM:  7.33821e+05
+   51      1 2.61760e+05 8.79257e+05-5.31205e+04-1.00840e-07 4.00364e-05-6.90567e-06
+           2 3.12425e+05 1.04814e+06-4.00638e+04-1.00840e-07 4.77205e-05-5.20829e-06
+           3 3.21751e+05 1.05094e+06-2.52867e+04 3.23504e-07 4.77205e-05-3.28726e-06
+           4 2.71087e+05 8.82055e+05-3.83434e+04 3.23504e-07 4.00364e-05-4.98464e-06
+      AvgVM:  8.60262e+05
+   52      1 3.09630e+05 1.04143e+06-5.50123e+03-1.39967e-07 4.74270e-05-7.15160e-07
+           2 2.53678e+05 8.54925e+05 2.47541e+04-1.39967e-07 3.89411e-05 3.21804e-06
+           3 2.75289e+05 8.61409e+05 8.43499e+03 8.43332e-07 3.89411e-05 1.09655e-06
+           4 3.31241e+05 1.04791e+06-2.18204e+04 8.43332e-07 4.74270e-05-2.83665e-06
+      AvgVM:  8.44682e+05
+   53      1 2.21144e+05 7.48352e+05 2.57318e+04-1.68064e-07 3.41005e-05 3.34513e-06
+           2 1.89899e+05 6.44200e+05 2.24621e+04-1.68064e-07 2.93615e-05 2.92008e-06
+           3 1.87563e+05 6.43500e+05 1.33488e+04-2.74329e-07 2.93615e-05 1.73535e-06
+           4 2.18809e+05 7.47652e+05 1.66185e+04-2.74329e-07 3.41005e-05 2.16041e-06
+      AvgVM:  6.20538e+05
+   54      1 1.47678e+05 5.26956e+05 4.48750e+04-5.20441e-07 2.41326e-05 5.83376e-06
+           2 8.47329e+04 3.17139e+05 5.20741e+04-5.20441e-07 1.45860e-05 6.76963e-06
+           3 8.98751e+04 3.18682e+05 3.37150e+04-2.86474e-07 1.45860e-05 4.38296e-06
+           4 1.52820e+05 5.28499e+05 2.65160e+04-2.86474e-07 2.41326e-05 3.44708e-06
+      AvgVM:  3.84844e+05
+   55      1 7.05723e+04 1.99306e+05 3.43650e+04 5.39022e-07 8.90673e-06 4.46745e-06
+           2 3.12144e+04 6.81133e+04 5.54046e+03 5.39022e-07 2.93745e-06 7.20259e-07
+           3 1.06255e+04 6.19366e+04-5.93892e+03-3.97776e-07 2.93745e-06-7.72060e-07
+           4 4.99833e+04 1.93130e+05 2.28856e+04-3.97776e-07 8.90673e-06 2.97513e-06
+      AvgVM:  1.20270e+05
+   56      1 1.51577e+04 3.47535e+04-1.40508e+04 2.36584e-07 1.51031e-06-1.82660e-06
+           2 2.88078e+04 8.02536e+04-3.53915e+04 2.36584e-07 3.58056e-06-4.60090e-06
+           3 1.35644e+04 7.56806e+04-3.14103e+04-4.56991e-07 3.58056e-06-4.08333e-06
+           4-8.56798e+01 3.01804e+04-1.00695e+04-4.56991e-07 1.51031e-06-1.30903e-06
+      AvgVM:  6.38989e+04
+   57      1 4.42272e+04 9.85485e+04-4.39034e+04 7.33134e-07 4.26401e-06-5.70744e-06
+           2 4.28885e+04 9.40862e+04-2.76332e+04 7.33134e-07 4.06098e-06-3.59232e-06
+           3 5.45101e+04 9.75727e+04-2.80237e+04 1.26191e-06 4.06098e-06-3.64308e-06
+           4 5.58488e+04 1.02035e+05-4.42939e+04 1.26191e-06 4.26401e-06-5.75820e-06
+      AvgVM:  1.05937e+05
+   58      1 6.61455e+04 1.30904e+05-3.27819e+04 1.34372e-06 5.55301e-06-4.26165e-06
+           2 9.43608e+04 2.24955e+05-3.31449e+04 1.34372e-06 9.83233e-06-4.30884e-06
+           3 9.41015e+04 2.24877e+05-2.49154e+04 1.33192e-06 9.83233e-06-3.23901e-06
+           4 6.58862e+04 1.30826e+05-2.45525e+04 1.33192e-06 5.55301e-06-3.19182e-06
+      AvgVM:  1.63008e+05
+   59      1-4.31982e+04-8.54272e+04 5.18705e+04-8.78504e-07-3.62338e-06 6.74317e-06
+           2-3.13798e+05-9.87428e+05 1.55020e+05-8.78504e-07-4.46644e-05 2.01526e-05
+           3-2.40120e+05-9.65324e+05 7.60946e+04 2.47384e-06-4.46644e-05 9.89230e-06
+           4 3.04797e+04-6.33238e+04-2.70546e+04 2.47384e-06-3.62338e-06-3.51709e-06
+      AvgVM:  5.01541e+05
+   60      1-2.45421e+05-1.22696e+06 1.18194e+05 6.13330e-06-5.76665e-05 1.53652e-05
+           2-2.09033e+05-1.10566e+06 9.60318e+04 6.13330e-06-5.21477e-05 1.24841e-05
+           3-2.24863e+05-1.11041e+06 1.06645e+05 5.41304e-06-5.21477e-05 1.38638e-05
+           4-2.61250e+05-1.23170e+06 1.28807e+05 5.41304e-06-5.76665e-05 1.67449e-05
+      AvgVM:  1.08833e+06
+   61      1 5.52589e+04 1.16893e+05-4.36410e+04 1.00955e-06 5.01577e-06-5.67333e-06
+           2 1.45611e+05 4.18065e+05-1.25147e+05 1.00955e-06 1.87191e-05-1.62691e-05
+           3 8.73923e+04 4.00600e+05-9.87940e+04-1.63938e-06 1.87191e-05-1.28432e-05
+           4-2.95934e+03 9.94276e+04-1.72885e+04-1.63938e-06 5.01577e-06-2.24750e-06
+      AvgVM:  2.65341e+05
+   62      1 7.56309e+04 3.12833e+05-9.10193e+04-9.10949e-07 1.45072e-05-1.18325e-05
+           2-9.05922e+04-2.41244e+05-2.22413e+04-9.10949e-07-1.07033e-05-2.89137e-06
+           3-4.14650e+04-2.26506e+05-7.07231e+04 1.32434e-06-1.07033e-05-9.19400e-06
+           4 1.24758e+05 3.27571e+05-1.39501e+05 1.32434e-06 1.45072e-05-1.81351e-05
+      AvgVM:  2.88770e+05
+   63      1-1.22754e+05-4.03045e+05-3.91255e+04-9.20478e-08-1.83109e-05-5.08631e-06
+           2-9.35711e+04-3.05767e+05-5.65370e+04-9.20478e-08-1.38848e-05-7.34981e-06
+           3-1.06008e+05-3.09498e+05-4.80252e+04-6.57923e-07-1.38848e-05-6.24327e-06
+           4-1.35191e+05-4.06776e+05-3.06137e+04-6.57923e-07-1.83109e-05-3.97977e-06
+      AvgVM:  3.25059e+05
+   64      1-9.15746e+04-3.15083e+05-2.22720e+04 1.47514e-07-1.43805e-05-2.89536e-06
+           2-1.29688e+05-4.42128e+05-1.12255e+04 1.47514e-07-2.01611e-05-1.45932e-06
+           3-1.21798e+05-4.39761e+05-2.23420e+04 5.06525e-07-2.01611e-05-2.90445e-06
+           4-8.36843e+04-3.12716e+05-3.33884e+04 5.06525e-07-1.43805e-05-4.34050e-06
+      AvgVM:  3.39742e+05
+   65      1-1.25948e+05-4.37335e+05-5.26273e+04 2.62621e-07-1.99775e-05-6.84155e-06
+           2-8.45276e+04-2.99267e+05-7.39004e+04 2.62621e-07-1.36954e-05-9.60705e-06
+           3-9.97227e+04-3.03825e+05-6.18194e+04-4.28754e-07-1.36954e-05-8.03653e-06
+           4-1.41143e+05-4.41893e+05-4.05464e+04-4.28754e-07-1.99775e-05-5.27103e-06
+      AvgVM:  3.45687e+05
+   66      1-5.96115e+04-2.05737e+05-5.68505e+04 1.05475e-07-9.39266e-06-7.39057e-06
+           2-2.35237e+04-8.54440e+04-1.73991e+04 1.05475e-07-3.91935e-06-2.26189e-06
+           3 4.65589e+03-7.69901e+04-6.87352e+03 1.38765e-06-3.91935e-06-8.93557e-07
+           4-3.14319e+04-1.97283e+05-4.63249e+04 1.38765e-06-9.39266e-06-6.02224e-06
+      AvgVM:  1.42740e+05
+   67      1-1.53611e+04-5.89290e+04-7.65851e+03 1.15879e-07-2.71603e-06-9.95607e-07
+           2-2.97730e+04-1.06969e+05-6.66504e+03 1.15879e-07-4.90183e-06-8.66455e-07
+           3-2.90634e+04-1.06756e+05-1.08685e+04 1.48167e-07-4.90183e-06-1.41291e-06
+           4-1.46515e+04-5.87161e+04-1.18620e+04 1.48167e-07-2.71603e-06-1.54206e-06
+      AvgVM:  7.62789e+04
+   68      1-5.72281e+04-1.25375e+05 1.16205e+04-9.80779e-07-5.41033e-06 1.51067e-06
+           2-5.19759e+04-1.07868e+05 5.33988e+04-9.80779e-07-4.61375e-06 6.94185e-06
+           3-2.21343e+04-9.89153e+04 5.49307e+04 3.77016e-07-4.61375e-06 7.14099e-06
+           4-2.73864e+04-1.16422e+05 1.31524e+04 3.77016e-07-5.41033e-06 1.70981e-06
+      AvgVM:  1.20202e+05
+   69      1-5.17771e+04-1.71478e+05 8.13573e+04-1.66792e-08-7.79726e-06 1.05764e-05
+           2-1.14376e+05-3.80140e+05 7.67761e+04-1.66792e-08-1.72914e-05 9.98089e-06
+           3-1.17648e+05-3.81121e+05 5.85182e+04-1.65569e-07-1.72914e-05 7.60736e-06
+           4-5.50494e+04-1.72460e+05 6.30994e+04-1.65569e-07-7.79726e-06 8.20292e-06
+      AvgVM:  2.77780e+05
+   70      1-1.38924e+05-4.38263e+05 5.27833e+04-3.72229e-07-1.98293e-05 6.86183e-06
+           2-1.22043e+05-3.81993e+05 2.23352e+04-3.72229e-07-1.72690e-05 2.90358e-06
+           3-1.43791e+05-3.88518e+05 2.72588e+04-1.36179e-06-1.72690e-05 3.54365e-06
+           4-1.60672e+05-4.44788e+05 5.77069e+04-1.36179e-06-1.98293e-05 7.50190e-06
+      AvgVM:  3.71223e+05
+   71      1-9.98847e+04-3.56820e+05 1.68147e+04 3.58058e-07-1.63427e-05 2.18591e-06
+           2-1.00079e+05-3.57469e+05 6.66264e+03 3.58058e-07-1.63722e-05 8.66144e-07
+           3-1.07331e+05-3.59644e+05 6.60585e+03 2.81159e-08-1.63722e-05 8.58761e-07
+           4-1.07136e+05-3.58995e+05 1.67579e+04 2.81159e-08-1.63427e-05 2.17853e-06
+      AvgVM:  3.20075e+05
+   72      1-7.54556e+04-2.98816e+05-3.10448e+04 7.09459e-07-1.38090e-05-4.03582e-06
+           2-2.90872e+04-1.44255e+05-7.25539e+04 7.09459e-07-6.77642e-06-9.43201e-06
+           3-5.87366e+04-1.53149e+05-5.90298e+04-6.39587e-07-6.77642e-06-7.67387e-06
+           4-1.05105e+05-3.07711e+05-1.75206e+04-6.39587e-07-1.38090e-05-2.27768e-06
+      AvgVM:  2.24456e+05
+   73      1-7.85306e+03-2.48770e+04-7.68002e+04-1.94975e-08-1.12606e-06-9.98403e-06
+           2 4.75616e+04 1.59839e+05-5.21086e+04-1.94975e-08 7.27850e-06-6.77412e-06
+           3 6.51985e+04 1.65130e+05-3.59460e+04 7.82979e-07 7.27850e-06-4.67298e-06
+           4 9.78379e+03-1.95860e+04-6.06376e+04 7.82979e-07-1.12606e-06-7.88289e-06
+      AvgVM:  1.42083e+05
+   74      1 6.44789e+04 2.16533e+05-3.61550e+04-2.40501e-08 9.85946e-06-4.70015e-06
+           2 5.55564e+04 1.86791e+05-2.12939e+04-2.40501e-08 8.50622e-06-2.76820e-06
+           3 6.61715e+04 1.89976e+05-2.38963e+04 4.58936e-07 8.50622e-06-3.10651e-06
+           4 7.50940e+04 2.19717e+05-3.87574e+04 4.58936e-07 9.85946e-06-5.03846e-06
+      AvgVM:  1.87375e+05
+   75      1 4.18105e+04 1.70645e+05-7.14681e+03-4.69157e-07 7.90511e-06-9.29086e-07
+           2 3.99048e+04 1.64293e+05 1.56772e+04-4.69157e-07 7.61609e-06 2.03804e-06
+           3 5.62077e+04 1.69184e+05 1.51214e+04 2.72625e-07 7.61609e-06 1.96579e-06
+           4 5.81134e+04 1.75536e+05-7.70262e+03 2.72625e-07 7.90511e-06-1.00134e-06
+      AvgVM:  1.53104e+05
+   76      1 1.81817e+04 1.10314e+05 3.86950e+04-7.45625e-07 5.24297e-06 5.03035e-06
+           2-2.26609e+04-2.58281e+04 3.57723e+04-7.45625e-07-9.51490e-07 4.65040e-06
+           3-2.47486e+04-2.64544e+04 2.38599e+04-8.40613e-07-9.51490e-07 3.10179e-06
+           4 1.60940e+04 1.09688e+05 2.67826e+04-8.40613e-07 5.24297e-06 3.48174e-06
+      AvgVM:  8.75591e+04
+   77      1 5.18317e+02-7.88372e+04 1.74300e+04 1.20847e-06-3.94964e-06 2.26590e-06
+           2-1.26463e+04-1.22719e+05-3.33244e+03 1.20847e-06-5.94627e-06-4.33218e-07
+           3-2.74766e+04-1.27168e+05-7.17212e+03 5.33695e-07-5.94627e-06-9.32375e-07
+           4-1.43120e+04-8.32863e+04 1.35903e+04 5.33695e-07-3.94964e-06 1.76674e-06
+      AvgVM:  9.97308e+04
+   78      1-2.16163e+04-1.19221e+05-2.58022e+04 7.07502e-07-5.63681e-06-3.35428e-06
+           2-2.87738e+03-5.67581e+04-7.79296e+04 7.07502e-07-2.79474e-06-1.01309e-05
+           3-4.01113e+04-6.79282e+04-7.24641e+04-9.86641e-07-2.79474e-06-9.42034e-06
+           4-5.88502e+04-1.30391e+05-2.03366e+04-9.86641e-07-5.63681e-06-2.64376e-06
+      AvgVM:  1.30463e+05
+   79      1 1.58061e+05 2.41609e+05-1.30840e+05 4.27893e-06 9.70953e-06-1.70092e-05
+           2 3.64568e+05 9.29966e+05-8.22484e+04 4.27893e-06 4.10298e-05-1.06923e-05
+           3 3.99277e+05 9.40379e+05-2.20171e+04 5.85817e-06 4.10298e-05-2.86223e-06
+           4 1.92770e+05 2.52022e+05-7.06091e+04 5.85817e-06 9.70953e-06-9.17918e-06
+      AvgVM:  5.53002e+05
+   80      1 4.60942e+05 1.16716e+06-2.06752e+04 5.53977e-06 5.14437e-05-2.68778e-06
+           2 4.42026e+05 1.10410e+06 1.21397e+04 5.53977e-06 4.85747e-05 1.57815e-06
+           3 4.65465e+05 1.11113e+06 6.62234e+03 6.60625e-06 4.85747e-05 8.60904e-07
+           4 4.84381e+05 1.17419e+06-2.61925e+04 6.60625e-06 5.14437e-05-3.40503e-06
+      AvgVM:  9.92787e+05
+   81      1-2.35310e+04-7.98793e+03 6.98618e+04-1.05673e-06-4.64308e-08 9.08203e-06
+           2-2.43674e+04-1.07759e+04 2.00347e+05-1.05673e-06-1.73282e-07 2.60450e-05
+           3 6.88359e+04 1.71851e+04 2.00103e+05 3.18402e-06-1.73282e-07 2.60133e-05
+           4 6.96723e+04 1.99731e+04 6.96178e+04 3.18402e-06-4.64308e-08 9.05032e-06
+      AvgVM:  2.39543e+05
+   82      1 3.64711e+04 6.33664e+04 1.51160e+05 8.73060e-07 2.62125e-06 1.96508e-05
+           2 8.76469e+04 2.33952e+05 4.44465e+04 8.73060e-07 1.03829e-05 5.77805e-06
+           3 1.14228e+04 2.11085e+05 5.93728e+04-2.59514e-06 1.03829e-05 7.71846e-06
+           4-3.97530e+04 4.04991e+04 1.66087e+05-2.59514e-06 2.62125e-06 2.15913e-05
+      AvgVM:  2.53027e+05
+   83      1 8.01448e+04 2.87287e+05 5.92962e+04-3.02059e-07 1.31622e-05 7.70851e-06
+           2 7.90331e+04 2.83581e+05 1.06623e+05-3.02059e-07 1.29936e-05 1.38610e-05
+           3 1.12838e+05 2.93722e+05 1.06299e+05 1.23605e-06 1.29936e-05 1.38188e-05
+           4 1.13950e+05 2.97428e+05 5.89720e+04 1.23605e-06 1.31622e-05 7.66636e-06
+      AvgVM:  2.96321e+05
+   84      1 6.32551e+04 2.14623e+05 1.06420e+05-5.65807e-08 9.78230e-06 1.38346e-05
+           2 6.52081e+03 2.55081e+04 4.80369e+04-5.65807e-08 1.17759e-06 6.24480e-06
+           3-3.51813e+04 1.29975e+04 3.14894e+04-1.95403e-06 1.17759e-06 4.09362e-06
+           4 2.15531e+04 2.02112e+05 8.98723e+04-1.95403e-06 9.78230e-06 1.16834e-05
+      AvgVM:  1.67171e+05
+   85      1-2.58184e+04-4.97148e+04 3.07140e+04-5.45196e-07-2.09847e-06 3.99282e-06
+           2-2.80974e+04-5.73116e+04 4.21986e+04-5.45196e-07-2.44412e-06 5.48582e-06
+           3-1.98941e+04-5.48506e+04 4.15339e+04-1.71947e-07-2.44412e-06 5.39941e-06
+           4-1.76151e+04-4.72539e+04 3.00493e+04-1.71947e-07-2.09847e-06 3.90641e-06
+      AvgVM:  7.74530e+04
+   86      1 3.33507e+01-7.41042e+04 2.98504e+04 1.11323e-06-3.70571e-06 3.88056e-06
+           2-2.04133e+04-1.42260e+05-3.26692e+04 1.11323e-06-6.80679e-06-4.24700e-06
+           3-6.50702e+04-1.55657e+05-3.86329e+04-9.18659e-07-6.80679e-06-5.02227e-06
+           4-4.46236e+04-8.75013e+04 2.38868e+04-9.18659e-07-3.70571e-06 3.10528e-06
+      AvgVM:  1.18125e+05
+   87      1-3.24420e+04-1.08536e+05-7.75209e+04 5.94535e-09-4.94018e-06-1.00777e-05
+           2 2.16289e+04 7.16999e+04-9.04700e+04 5.94535e-09 3.26056e-06-1.17611e-05
+           3 1.23796e+04 6.89251e+04-7.46993e+04-4.14899e-07 3.26056e-06-9.71091e-06
+           4-4.16913e+04-1.11311e+05-6.17503e+04-4.14899e-07-4.94018e-06-8.02754e-06
+      AvgVM:  1.55838e+05
+   88      1 6.65377e+04 1.50392e+05-8.39573e+04 1.07101e-06 6.52154e-06-1.09144e-05
+           2 7.12085e+04 1.65961e+05-6.73967e+04 1.07101e-06 7.22993e-06-8.76157e-06
+           3 8.30374e+04 1.69510e+05-6.60344e+04 1.60922e-06 7.22993e-06-8.58447e-06
+           4 7.83667e+04 1.53941e+05-8.25950e+04 1.60922e-06 6.52154e-06-1.07373e-05
+      AvgVM:  1.90650e+05
+   89      1 5.51466e+04 1.94852e+05-7.01005e+04-1.65452e-07 8.91541e-06-9.11307e-06
+           2 8.08373e+04 2.80488e+05-6.55095e+04-1.65452e-07 1.28118e-05-8.51623e-06
+           3 8.41166e+04 2.81471e+05-5.80163e+04-1.62411e-08 1.28118e-05-7.54213e-06
+           4 5.84260e+04 1.95836e+05-6.26074e+04-1.62411e-08 8.91541e-06-8.13897e-06
+      AvgVM:  2.40391e+05
+   90      1 6.55597e+04 2.71575e+05-2.06707e+04-7.95646e-07 1.25954e-05-2.68719e-06
+           2 3.59700e+04 1.72943e+05 5.73692e+04-7.95646e-07 8.10760e-06 7.45800e-06
+           3 9.17127e+04 1.89666e+05 4.87389e+04 1.74065e-06 8.10760e-06 6.33606e-06
+           4 1.21302e+05 2.88298e+05-2.93010e+04 1.74065e-06 1.25954e-05-3.80913e-06
+      AvgVM:  2.18814e+05
+   91      1 1.95993e+04 8.23918e+04 8.15305e+04-2.55912e-07 3.82560e-06 1.05990e-05
+           2-2.79448e+04-7.60885e+04 6.78063e+04-2.55912e-07-3.38526e-06 8.81482e-06
+           3-3.77478e+04-7.90294e+04 5.39392e+04-7.01948e-07-3.38526e-06 7.01210e-06
+           4 9.79632e+03 7.94509e+04 6.76634e+04-7.01948e-07 3.82560e-06 8.79624e-06
+      AvgVM:  1.37429e+05
+   92      1-6.36390e+04-1.47945e+05 7.20578e+04-9.62766e-07-6.44269e-06 9.36751e-06
+           2-7.11700e+04-1.73049e+05 8.63995e+04-9.62766e-07-7.58489e-06 1.12319e-05
+           3-6.09259e+04-1.69976e+05 8.42029e+04-4.96661e-07-7.58489e-06 1.09464e-05
+           4-5.33949e+04-1.44872e+05 6.98612e+04-4.96661e-07-6.44269e-06 9.08196e-06
+      AvgVM:  1.93865e+05
+   93      1-5.10808e+04-2.08251e+05 7.92068e+04 5.69727e-07-9.64635e-06 1.02969e-05
+           2-8.06838e+04-3.06928e+05 3.65886e+04 5.69727e-07-1.41361e-05 4.75652e-06
+           3-1.11125e+05-3.16060e+05 2.79544e+04-8.15365e-07-1.41361e-05 3.63407e-06
+           4-8.15224e+04-2.17384e+05 7.05726e+04-8.15365e-07-9.64635e-06 9.17443e-06
+      AvgVM:  2.55876e+05
+   94      1-8.14377e+04-2.86297e+05-7.55419e+03 2.22565e-07-1.30933e-05-9.82045e-07
+           2-3.30487e+04-1.25000e+05-4.22854e+04 2.22565e-07-5.75428e-06-5.49710e-06
+           3-5.78568e+04-1.32443e+05-2.81720e+04-9.06200e-07-5.75428e-06-3.66236e-06
+           4-1.06246e+05-2.93739e+05 6.55925e+03-9.06200e-07-1.30933e-05 8.52702e-07
+      AvgVM:  1.93151e+05
+   95      1 6.10250e+03-1.16542e+04-5.43867e+04 4.79938e-07-6.74248e-07-7.07027e-06
+           2 4.92227e+04 1.32080e+05-5.97834e+04 4.79938e-07 5.86566e-06-7.77184e-06
+           3 4.53680e+04 1.30924e+05-4.72066e+04 3.04547e-07 5.86566e-06-6.13686e-06
+           4 2.24774e+03-1.28106e+04-4.18100e+04 3.04547e-07-6.74248e-07-5.43530e-06
+      AvgVM:  1.16423e+05
+   96      1 4.00226e+04 1.85267e+05-6.23657e+04-7.77870e-07 8.66299e-06-8.10754e-06
+           2 4.72921e+04 2.09498e+05-5.41687e+04-7.77870e-07 9.76554e-06-7.04192e-06
+           3 5.31471e+04 2.11255e+05-5.20484e+04-5.11466e-07 9.76554e-06-6.76629e-06
+           4 4.58776e+04 1.87023e+05-6.02454e+04-5.11466e-07 8.66299e-06-7.83190e-06
+      AvgVM:  2.05425e+05
+   97      1 7.72375e+04 2.22683e+05-4.37337e+04 5.21625e-07 9.97560e-06-5.68538e-06
+           2 7.37520e+04 2.11065e+05-2.39859e+04 5.21625e-07 9.44696e-06-3.11817e-06
+           3 8.78575e+04 2.15297e+05-2.50025e+04 1.16343e-06 9.44696e-06-3.25033e-06
+           4 9.13431e+04 2.26915e+05-4.47503e+04 1.16343e-06 9.97560e-06-5.81754e-06
+      AvgVM:  2.01236e+05
+   98      1 7.91422e+03 1.68778e+05-1.75429e+04-2.13596e-06 8.32017e-06-2.28058e-06
+           2-8.89768e+03 1.12738e+05-6.20304e+04-2.13596e-06 5.77037e-06-8.06395e-06
+           3-4.06744e+04 1.03205e+05-6.69338e+04-3.58180e-06 5.77037e-06-8.70140e-06
+           4-2.38625e+04 1.59245e+05-2.24464e+04-3.58180e-06 8.32017e-06-2.91803e-06
+      AvgVM:  1.69175e+05
+   99      1 1.08842e+05-1.00282e+05-5.97120e+04 6.94635e-06-6.64672e-06-7.76256e-06
+           2-9.80212e+04-7.89827e+05-1.68281e+04 6.94635e-06-3.80210e-05-2.18765e-06
+           3-6.73898e+04-7.80638e+05-7.71633e+04 8.34007e-06-3.80210e-05-1.00312e-05
+           4 1.39474e+05-9.10922e+04-1.20047e+05 8.34007e-06-6.64672e-06-1.56061e-05
+      AvgVM:  5.01293e+05
+  100      1-2.01651e+05-9.54262e+05-1.12907e+05 4.23138e-06-4.46884e-05-1.46779e-05
+           2-1.14889e+05-6.65057e+05-3.45361e+05 4.23138e-06-3.15295e-05-4.48969e-05
+           3-2.80928e+05-7.14868e+05-3.20055e+05-3.32338e-06-3.15295e-05-4.16072e-05
+           4-3.67690e+05-1.00407e+06-8.76014e+04-3.32338e-06-4.46884e-05-1.13882e-05
+      AvgVM:  8.69656e+05
+  101      1 2.53336e+04-4.71666e+04-6.84848e+04 1.97418e-06-2.73833e-06-8.90303e-06
+           2-2.39934e+04-2.11590e+05-3.00673e+05 1.97418e-06-1.02196e-05-3.90874e-05
+           3-1.89842e+05-2.61344e+05-3.15060e+05-5.57192e-06-1.02196e-05-4.09578e-05
+           4-1.40515e+05-9.69211e+04-8.28719e+04-5.57192e-06-2.73833e-06-1.07733e-05
+      AvgVM:  3.69137e+05
+  102      1-9.80483e+04-2.31707e+05-3.37081e+05-1.42681e-06-1.01146e-05-4.38205e-05
+           2-4.68302e+04-6.09800e+04-1.32154e+05-1.42681e-06-2.34655e-06-1.71800e-05
+           3 9.95461e+04-1.70671e+04-1.17215e+05 5.23331e-06-2.34655e-06-1.52380e-05
+           4 4.83281e+04-1.87794e+05-3.22142e+05 5.23331e-06-1.01146e-05-4.18785e-05
+      AvgVM:  4.20477e+05
+  103      1 3.63606e+04 3.70536e+04-6.18179e+04 1.26223e-06 1.30727e-06-8.03632e-06
+           2 5.09606e+04 8.57202e+04-1.06944e+05 1.26223e-06 3.52160e-06-1.39027e-05
+           3 1.87276e+04 7.60503e+04-1.02686e+05-2.04373e-07 3.52160e-06-1.33491e-05
+           4 4.12763e+03 2.73837e+04-5.75595e+04-2.04373e-07 1.30727e-06-7.48274e-06
+      AvgVM:  1.51618e+05
+  104      1 3.14223e+03 1.13623e+05-1.06947e+05-1.54723e-06 5.63401e-06-1.39032e-05
+           2 2.65942e+04 1.91796e+05-1.43682e+04-1.54723e-06 9.19089e-06-1.86786e-06
+           3 9.27223e+04 2.11635e+05-7.52801e+03 1.46160e-06 9.19089e-06-9.78641e-07
+           4 6.92703e+04 1.33461e+05-1.00107e+05 1.46160e-06 5.63401e-06-1.30140e-05
+      AvgVM:  1.97702e+05
+  105      1 6.53256e+04 1.92349e+05 4.77976e+04 3.81042e-07 8.63757e-06 6.21369e-06
+           2 3.19064e+04 8.09519e+04 8.27991e+04 3.81042e-07 3.56900e-06 1.07639e-05
+           3 5.69074e+04 8.84522e+04 7.30518e+04 1.51859e-06 3.56900e-06 9.49674e-06
+           4 9.03266e+04 1.99849e+05 3.80504e+04 1.51859e-06 8.63757e-06 4.94655e-06
+      AvgVM:  1.70580e+05
+  106      1-3.06129e+04 1.17178e+04 9.56310e+04-1.70641e-06 1.04509e-06 1.24320e-05
+           2-4.26583e+04-2.84335e+04 9.19295e+04-1.70641e-06-7.81801e-07 1.19508e-05
+           3-4.53022e+04-2.92267e+04 8.84163e+04-1.82671e-06-7.81801e-07 1.14941e-05
+           4-3.32568e+04 1.09247e+04 9.21177e+04-1.82671e-06 1.04509e-06 1.19753e-05
+      AvgVM:  1.64050e+05
+  107      1-3.02965e+04-8.34539e+04 1.09374e+05-2.63019e-07-3.71825e-06 1.42186e-05
+           2-7.11468e+04-2.19622e+05 1.35090e+05-2.63019e-07-9.91388e-06 1.75617e-05
+           3-5.27779e+04-2.14111e+05 1.23176e+05 5.72769e-07-9.91388e-06 1.60128e-05
+           4-1.19276e+04-7.79432e+04 9.74592e+04 5.72769e-07-3.71825e-06 1.26697e-05
+      AvgVM:  2.44679e+05
+  108      1-6.22241e+04-2.47363e+05 9.86710e+04 5.99231e-07-1.14348e-05 1.28272e-05
+           2-4.87704e+04-2.02517e+05-2.79269e+03 5.99231e-07-9.39428e-06-3.63049e-07
+           3-1.21244e+05-2.24259e+05 1.13132e+03-2.69834e-06-9.39428e-06 1.47072e-07
+           4-1.34698e+05-2.69105e+05 1.02595e+05-2.69834e-06-1.14348e-05 1.33373e-05
+      AvgVM:  2.37873e+05
+  109      1-4.43426e+04-1.51608e+05-3.95342e+04 5.69998e-08-6.91529e-06-5.13945e-06
+           2-1.31409e+04-4.76030e+04-3.79685e+04 5.69998e-08-2.18304e-06-4.93590e-06
+           3-1.20225e+04-4.72675e+04-2.88680e+04 1.07887e-07-2.18304e-06-3.75284e-06
+           4-4.32242e+04-1.51273e+05-3.04337e+04 1.07887e-07-6.91529e-06-3.95638e-06
+      AvgVM:  1.10068e+05
+  110      1 4.75467e+04 2.24654e+04-6.58449e+04 2.04035e-06 4.10070e-07-8.55984e-06
+           2 6.30560e+04 7.41630e+04-1.18691e+05 2.04035e-06 2.76231e-06-1.54298e-05
+           3 2.53088e+04 6.28389e+04-1.14167e+05 3.22856e-07 2.76231e-06-1.48418e-05
+           4 9.79949e+03 1.11412e+04-6.13214e+04 3.22856e-07 4.10070e-07-7.97178e-06
+      AvgVM:  1.62529e+05
+  111      1 2.97636e+04 1.34504e+05-1.30783e+05-5.29377e-07 6.27874e-06-1.70018e-05
+           2 7.75976e+04 2.93951e+05-1.02552e+05-5.29377e-07 1.35336e-05-1.33318e-05
+           3 9.77626e+04 3.00000e+05-8.86007e+04 3.88130e-07 1.35336e-05-1.15181e-05
+           4 4.99286e+04 1.40553e+05-1.16832e+05 3.88130e-07 6.27874e-06-1.51881e-05
+      AvgVM:  2.79697e+05
+  112      1 1.01108e+05 3.07697e+05-5.82521e+04 4.39934e-07 1.38682e-05-7.57277e-06
+           2 5.93028e+04 1.68347e+05 6.13930e+03 4.39934e-07 7.52781e-06 7.98109e-07
+           3 1.05297e+05 1.82145e+05-6.05385e+03 2.53265e-06 7.52781e-06-7.87001e-07
+           4 1.47102e+05 3.21495e+05-7.04452e+04 2.53265e-06 1.38682e-05-9.15788e-06
+      AvgVM:  2.25269e+05
+  113      1 3.12831e+03 8.94779e+04 3.12370e+04-1.18575e-06 4.42697e-06 4.06081e-06
+           2-1.09236e+04 4.26382e+04 4.27192e+04-1.18575e-06 2.29576e-06 5.55350e-06
+           3-2.72205e+03 4.50986e+04 3.86208e+04-8.12582e-07 2.29576e-06 5.02070e-06
+           4 1.13299e+04 9.19384e+04 2.71385e+04-8.12582e-07 4.42697e-06 3.52801e-06
+      AvgVM:  9.30591e+04
+  114      1-1.74022e+04-1.67753e+04 8.12047e+04-6.18481e-07-5.77731e-07 1.05566e-05
+           2-5.51120e+04-1.42475e+05 1.40123e+05-6.18481e-07-6.29705e-06 1.82159e-05
+           3-1.30279e+04-1.29849e+05 1.29124e+05 1.29635e-06-6.29705e-06 1.67861e-05
+           4 2.46819e+04-4.15004e+03 7.02060e+04 1.29635e-06-5.77731e-07 9.12678e-06
+      AvgVM:  1.98660e+05
+  115      1-8.00569e+04-2.35503e+05 1.40135e+05-4.70305e-07-1.05743e-05 1.82176e-05
+           2-1.19395e+05-3.66629e+05 8.03953e+04-4.70305e-07-1.65405e-05 1.04514e-05
+           3-1.62066e+05-3.79431e+05 6.89218e+04-2.41185e-06-1.65405e-05 8.95983e-06
+           4-1.22728e+05-2.48304e+05 1.28662e+05-2.41185e-06-1.05743e-05 1.67260e-05
+      AvgVM:  3.33049e+05
+  116      1-1.17673e+05-3.71954e+05 5.18484e+04-3.04336e-07-1.68326e-05 6.74029e-06
+           2-8.35957e+04-2.58363e+05 6.10634e+04-3.04336e-07-1.16642e-05 7.93824e-06
+           3-7.70136e+04-2.56388e+05 7.10025e+04-4.85051e-09-1.16642e-05 9.23033e-06
+           4-1.11091e+05-3.69979e+05 6.17876e+04-4.85051e-09-1.68326e-05 8.03238e-06
+      AvgVM:  2.99422e+05
+  117      1-3.40385e+04-1.27731e+05 2.77729e+04 2.14046e-07-5.87599e-06 3.61048e-06
+           2 3.61507e+04 1.06233e+05-7.17829e+04 2.14046e-07 4.76937e-06-9.33177e-06
+           3-3.49606e+04 8.48992e+04-5.13110e+04-3.02152e-06 4.76937e-06-6.67043e-06
+           4-1.05150e+05-1.49065e+05 4.82448e+04-3.02152e-06-5.87599e-06 6.27182e-06
+      AvgVM:  1.43891e+05
+  118      1-1.92903e+04 1.69879e+05-8.68919e+04-3.51270e-06 8.78331e-06-1.12959e-05
+           2-1.71742e+04 1.76933e+05-3.65963e+04-3.51270e-06 9.10425e-06-4.75751e-06
+           3 1.87512e+04 1.87710e+05-3.59791e+04-1.87810e-06 9.10425e-06-4.67728e-06
+           4 1.66351e+04 1.80657e+05-8.62747e+04-1.87810e-06 8.78331e-06-1.12157e-05
+      AvgVM:  2.12409e+05
+  119      1 2.90031e+05 4.93793e+05-1.23866e+05 7.09465e-06 2.03392e-05-1.61026e-05
+           2 4.90296e+05 1.16134e+06-2.71444e+05 7.09465e-06 5.07127e-05-3.52877e-05
+           3 3.84883e+05 1.12972e+06-2.13033e+05 2.29837e-06 5.07127e-05-2.76943e-05
+           4 1.84618e+05 4.62169e+05-6.54555e+04 2.29837e-06 2.03392e-05-8.50921e-06
+      AvgVM:  7.68465e+05
+  120      1 2.60723e+05 1.32871e+06-2.80005e+05-6.89445e-06 6.25245e-05-3.64006e-05
+           2 2.73232e+05 1.37040e+06-3.47746e+05-6.89445e-06 6.44217e-05-4.52070e-05
+           3 2.24845e+05 1.35589e+06-3.44098e+05-9.09605e-06 6.44217e-05-4.47327e-05
+           4 2.12337e+05 1.31419e+06-2.76356e+05-9.09605e-06 6.25245e-05-3.59263e-05
+      AvgVM:  1.35262e+06
+  121      1-1.28889e+05-1.13311e+05 1.00109e+05-4.74478e-06-3.73223e-06 1.30141e-05
+           2-1.96119e+05-3.37413e+05 4.01829e+05-4.74478e-06-1.39289e-05 5.22378e-05
+           3 1.93950e+04-2.72759e+05 3.82220e+05 5.06113e-06-1.39289e-05 4.96886e-05
+           4 8.66256e+04-4.86569e+04 8.04998e+04 5.06113e-06-3.73223e-06 1.04650e-05
+      AvgVM:  4.67582e+05
+  122      1-1.59869e+04-3.24251e+05 4.25345e+05 4.06441e-06-1.59727e-05 5.52949e-05
+           2 1.44265e+04-2.22872e+05 1.22157e+05 4.06441e-06-1.13600e-05 1.58804e-05
+           3-2.02137e+05-2.87841e+05 1.31028e+05-5.78921e-06-1.13600e-05 1.70336e-05
+           4-2.32550e+05-3.89219e+05 4.34216e+05-5.78921e-06-1.59727e-05 5.64481e-05
+      AvgVM:  5.70455e+05
+  123      1-8.36127e+04-2.09034e+05-3.24910e+03-1.04513e-06-9.19749e-06-4.22383e-07
+           2-7.50714e+04-1.80563e+05-2.87997e+04-1.04513e-06-7.90206e-06-3.74397e-06
+           3-9.33219e+04-1.86038e+05-2.63085e+04-1.87553e-06-7.90206e-06-3.42011e-06
+           4-1.01863e+05-2.14509e+05-7.57893e+02-1.87553e-06-9.19749e-06-9.85261e-08
+      AvgVM:  1.75111e+05
+  124      1 1.02528e+04-1.29126e+05-5.48249e+04 2.44954e-06-6.61012e-06-7.12724e-06
+           2 2.49840e+04-8.00225e+04-6.43548e+04 2.44954e-06-4.37588e-06-8.36612e-06
+           3 1.81769e+04-8.20646e+04-6.00582e+04 2.13982e-06-4.37588e-06-7.80756e-06
+           4 3.44575e+03-1.31169e+05-5.05283e+04 2.13982e-06-6.61012e-06-6.56868e-06
+      AvgVM:  1.52374e+05
+  125      1 1.34275e+04-3.92664e+03-1.07596e+05 7.30274e-07-3.97744e-07-1.39875e-05
+           2 7.03566e+04 1.85837e+05-2.08866e+05 7.30274e-07 8.23650e-06-2.71525e-05
+           3-1.97888e+03 1.64136e+05-1.92261e+05-2.56099e-06 8.23650e-06-2.49940e-05
+           4-5.89080e+04-2.56273e+04-9.09918e+04-2.56099e-06-3.97744e-07-1.18289e-05
+      AvgVM:  2.80255e+05
+  126      1 6.55678e+04 2.35502e+05-1.93542e+05-2.54133e-07 1.07916e-05-2.51604e-05
+           2 5.46644e+04 1.99157e+05-5.76444e+04-2.54133e-07 9.13787e-06-7.49378e-06
+           3 1.51734e+05 2.28278e+05-6.08246e+04 4.16253e-06 9.13787e-06-7.90720e-06
+           4 1.62637e+05 2.64622e+05-1.96722e+05 4.16253e-06 1.07916e-05-2.55738e-05
+      AvgVM:  3.09757e+05
+  127      1 6.39536e+04 1.79095e+05-2.11675e+04 5.11256e-07 7.99544e-06-2.75177e-06
+           2 5.42779e+04 1.46843e+05-5.20549e+04 5.11256e-07 6.52797e-06-6.76714e-06
+           3 3.22155e+04 1.40224e+05-5.48770e+04-4.92586e-07 6.52797e-06-7.13401e-06
+           4 4.18911e+04 1.72476e+05-2.39896e+04-4.92586e-07 7.99544e-06-3.11864e-06
+      AvgVM:  1.59634e+05
+  128      1-2.49545e+04 9.58541e+04-1.34376e+04-2.68554e-06 5.16702e-06-1.74689e-06
+           2-3.97942e+04 4.63884e+04 8.91023e+04-2.68554e-06 2.91633e-06 1.15833e-05
+           3 3.34486e+04 6.83612e+04 8.47740e+04 6.47010e-07 2.91633e-06 1.10206e-05
+           4 4.82883e+04 1.17827e+05-1.77659e+04 6.47010e-07 5.16702e-06-2.30956e-06
+      AvgVM:  1.37445e+05
+  129      1-2.11444e+03-2.63889e+04 1.33647e+05 2.90111e-07-1.28773e-06 1.73741e-05
+           2-6.30046e+04-2.29356e+05 1.47399e+05 2.90111e-07-1.05227e-05 1.91619e-05
+           3-5.31813e+04-2.26409e+05 1.29640e+05 7.37069e-07-1.05227e-05 1.68532e-05
+           4 7.70882e+03-2.34419e+04 1.15887e+05 7.37069e-07-1.28773e-06 1.50653e-05
+      AvgVM:  2.66802e+05
+  130      1-1.05545e+05-2.70093e+05 1.19075e+05-1.22588e-06-1.19214e-05 1.54797e-05
+           2-6.98511e+04-1.51111e+05 4.17291e+04-1.22588e-06-6.50780e-06 5.42478e-06
+           3-1.25098e+05-1.67685e+05 5.21400e+04-3.73963e-06-6.50780e-06 6.77820e-06
+           4-1.60793e+05-2.86667e+05 1.29486e+05-3.73963e-06-1.19214e-05 1.68332e-05
+      AvgVM:  2.43446e+05
+  131      1-1.37474e+04-1.15333e+05 2.72206e+04 1.04263e-06-5.56044e-06 3.53868e-06
+           2-3.23764e+04-1.77430e+05 5.40086e+04 1.04263e-06-8.38585e-06 7.02111e-06
+           3-1.32422e+04-1.71690e+05 4.85751e+04 1.91323e-06-8.38585e-06 6.31476e-06
+           4 5.38688e+03-1.09593e+05 2.17871e+04 1.91323e-06-5.56044e-06 2.83233e-06
+      AvgVM:  1.52887e+05
+  132      1-7.46526e+03-1.29458e+05-6.86291e+03 1.56861e-06-6.36092e-06-8.92179e-07
+           2 4.76398e+04 5.42256e+04-1.52295e+05 1.56861e-06 1.99668e-06-1.97984e-05
+           3-5.62403e+04 2.30616e+04-1.36223e+05-3.15794e-06 1.99668e-06-1.77090e-05
+           4-1.11345e+05-1.60622e+05 9.20940e+03-3.15794e-06-6.36092e-06 1.19722e-06
+      AvgVM:  1.96219e+05
+  133      1 5.00008e+04 1.49382e+05-1.71049e+05 2.59313e-07 6.71909e-06-2.22364e-05
+           2 7.99629e+04 2.49255e+05-9.24244e+04 2.59313e-07 1.12633e-05-1.20152e-05
+           3 1.36123e+05 2.66103e+05-8.36854e+04 2.81461e-06 1.12633e-05-1.08791e-05
+           4 1.06161e+05 1.66230e+05-1.62310e+05 2.81461e-06 6.71909e-06-2.11003e-05
+      AvgVM:  2.96400e+05
+  134      1 1.14612e+05 2.67552e+05-7.46046e+04 1.71731e-06 1.16584e-05-9.69860e-06
+           2 9.17664e+04 1.91401e+05-9.81349e+04 1.71731e-06 8.19354e-06-1.27575e-05
+           3 7.49591e+04 1.86358e+05-1.04798e+05 9.52577e-07 8.19354e-06-1.36238e-05
+           4 9.78043e+04 2.62509e+05-8.12678e+04 9.52577e-07 1.16584e-05-1.05648e-05
+      AvgVM:  2.54122e+05
+  135      1 2.91415e+03 1.51800e+05-7.29509e+04-2.13130e-06 7.54631e-06-9.48362e-06
+           2 1.41006e+04 1.89089e+05 1.03729e+04-2.13130e-06 9.24293e-06 1.34847e-06
+           3 7.36177e+04 2.06944e+05 1.36356e+04 5.76724e-07 9.24293e-06 1.77263e-06
+           4 6.24312e+04 1.69656e+05-6.96882e+04 5.76724e-07 7.54631e-06-9.05947e-06
+      AvgVM:  1.88604e+05
+  136      1 6.40345e+04 1.33402e+05 8.46056e+04 1.20069e-06 5.70959e-06 1.09987e-05
+           2-1.07999e+04-1.16046e+05 1.76732e+05 1.20069e-06-5.64028e-06 2.29752e-05
+           3 5.50048e+04-9.63042e+04 1.54905e+05 4.19480e-06-5.64028e-06 2.01377e-05
+           4 1.29839e+05 1.53144e+05 6.27789e+04 4.19480e-06 5.70959e-06 8.16126e-06
+      AvgVM:  2.47785e+05
+  137      1-1.90737e+05-3.27247e+05 2.12483e+05-4.62815e-06-1.35013e-05 2.76228e-05
+           2-2.57507e+05-5.49813e+05 1.76981e+05-4.62815e-06-2.36280e-05 2.30075e-05
+           3-2.82866e+05-5.57420e+05 1.57506e+05-5.78199e-06-2.36280e-05 2.04758e-05
+           4-2.16096e+05-3.34854e+05 1.93009e+05-5.78199e-06-1.35013e-05 2.50911e-05
+      AvgVM:  5.07896e+05
+  138      1-1.77472e+05-6.08373e+05 1.93234e+05 2.51993e-07-2.77566e-05 2.51204e-05
+           2-1.85071e+05-6.33704e+05 3.22000e+05 2.51993e-07-2.89091e-05 4.18600e-05
+           3-9.30955e+04-6.06111e+05 3.19783e+05 4.43690e-06-2.89091e-05 4.15719e-05
+           4-8.54960e+04-5.80780e+05 1.91017e+05 4.43690e-06-2.77566e-05 2.48322e-05
+      AvgVM:  7.14447e+05
+  139      1-2.50587e+05-6.39315e+05 2.92239e+05-2.93961e-06-2.82069e-05 3.79910e-05
+           2-2.30338e+05-5.71820e+05-5.03680e+02-2.93961e-06-2.51359e-05-6.54784e-08
+           3-4.39440e+05-6.34551e+05 5.40211e+03-1.24537e-05-2.51359e-05 7.02274e-07
+           4-4.59688e+05-7.02045e+05 2.98145e+05-1.24537e-05-2.82069e-05 3.87588e-05
+      AvgVM:  6.54939e+05
+  140      1-3.58138e+05-6.24583e+05-7.59592e+04-8.53816e-06-2.58571e-05-9.87469e-06
+           2-3.91377e+05-7.35380e+05 3.86801e+04-8.53816e-06-3.08983e-05 5.02841e-06
+           3-3.09492e+05-7.10814e+05 2.89854e+04-4.81239e-06-3.08983e-05 3.76810e-06
+           4-2.76253e+05-6.00018e+05-8.56539e+04-4.81239e-06-2.58571e-05-1.11350e-05
+      AvgVM:  5.89904e+05
+  141      1 1.74404e+05 1.42438e+05-9.20415e+04 6.58362e-06 4.50583e-06-1.19654e-05
+           2 2.55569e+05 4.12990e+05-2.65777e+05 6.58362e-06 1.68160e-05-3.45510e-05
+           3 1.31473e+05 3.75761e+05-2.42104e+05 9.37212e-07 1.68160e-05-3.14735e-05
+           4 5.03068e+04 1.05209e+05-6.83681e+04 9.37212e-07 4.50583e-06-8.88785e-06
+      AvgVM:  3.73668e+05
+  142      1-1.46839e+04 3.66269e+05-1.82972e+05-6.22823e-06 1.85337e-05-2.37864e-05
+           2-6.49071e+04 1.98859e+05 8.33102e+04-6.22823e-06 1.09165e-05 1.08303e-05
+           3 1.25295e+05 2.55919e+05 6.86618e+04 2.42594e-06 1.09165e-05 8.92604e-06
+           4 1.75518e+05 4.23330e+05-1.97620e+05 2.42594e-06 1.85337e-05-2.56907e-05
+      AvgVM:  3.80713e+05
+  143      1-1.97056e+04 1.05615e+05 1.55435e+05-2.56950e-06 5.57633e-06 2.02066e-05
+           2-6.56785e+04-4.76279e+04 1.22648e+05-2.56950e-06-1.39622e-06 1.59443e-05
+           3-8.90979e+04-5.46537e+04 1.09239e+05-3.63509e-06-1.39622e-06 1.42011e-05
+           4-4.31250e+04 9.85892e+04 1.42027e+05-3.63509e-06 5.57633e-06 1.84635e-05
+      AvgVM:  2.48686e+05
+  144      1-4.22304e+03-6.04584e+04 6.57927e+04 6.95724e-07-2.95958e-06 8.55305e-06
+           2 1.35883e+04-1.08745e+03-4.60723e+04 6.95724e-07-2.58196e-07-5.98940e-06
+           3-6.63153e+04-2.50585e+04-4.08773e+04-2.93989e-06-2.58196e-07-5.31405e-06
+           4-8.41266e+04-8.44295e+04 7.09876e+04-2.93989e-06-2.95958e-06 9.22839e-06
+      AvgVM:  1.12429e+05
+  145      1-5.32124e+04-4.16478e+04-2.54433e+04-2.03590e-06-1.28420e-06-3.30762e-06
+           2-8.95057e+04-1.62625e+05 1.19967e+05-2.03590e-06-6.78868e-06 1.55957e-05
+           3 1.43586e+04-1.31466e+05 1.09381e+05 2.68992e-06-6.78868e-06 1.42195e-05
+           4 5.06518e+04-1.04885e+04-3.60288e+04 2.68992e-06-1.28420e-06-4.68374e-06
+      AvgVM:  1.59008e+05
+  146      1 2.80770e+04-1.56127e+05 9.12306e+04 3.74576e-06-8.22752e-06 1.18600e-05
+           2 3.84516e+04-1.21545e+05-7.97013e+04 3.74576e-06-6.65404e-06-1.03612e-05
+           3-8.36425e+04-1.58173e+05-7.66753e+04-1.80952e-06-6.65404e-06-9.96779e-06
+           4-9.40172e+04-1.92756e+05 9.42565e+04-1.80952e-06-8.22752e-06 1.22533e-05
+      AvgVM:  2.14449e+05
+  147      1-2.23840e+04-8.96467e+04-1.07729e+05 2.25498e-07-4.14657e-06-1.40048e-05
+           2 1.24096e+04 2.63321e+04-1.64775e+04 2.25498e-07 1.13046e-06-2.14208e-06
+           3 7.75895e+04 4.58860e+04-6.32939e+03 3.19118e-06 1.13046e-06-8.22821e-07
+           4 4.27958e+04-7.00927e+04-9.75812e+04 3.19118e-06-4.14657e-06-1.26856e-05
+      AvgVM:  1.26016e+05
+  148      1 4.78267e+04 5.76028e+04 1.13659e+04 1.52729e-06 2.16274e-06 1.47756e-06
+           2 3.16281e+04 3.60726e+03-1.71745e+04 1.52729e-06-2.94058e-07-2.23269e-06
+           3 1.12421e+04-2.50854e+03-2.18991e+04 5.99732e-07-2.94058e-07-2.84689e-06
+           4 2.74407e+04 5.14870e+04 6.64128e+03 5.99732e-07 2.16274e-06 8.63366e-07
+      AvgVM:  4.63046e+04
+  149      1 1.91441e+04 3.34230e+04-5.09908e+04 4.55858e-07 1.38399e-06-6.62880e-06
+           2 6.55703e+04 1.88177e+05-8.83828e+04 4.55858e-07 8.42530e-06-1.14898e-05
+           3 3.88617e+04 1.80164e+05-7.48418e+04-7.59382e-07 8.42530e-06-9.72944e-06
+           4-7.56451e+03 2.54104e+04-3.74498e+04-7.59382e-07 1.38399e-06-4.86847e-06
+      AvgVM:  1.49756e+05
+  150      1-9.49970e+03 1.72392e+05-2.87048e+04-3.06086e-06 8.76209e-06-3.73162e-06
+           2-4.98590e+04 3.78608e+04 1.05700e+05-3.06086e-06 2.64093e-06 1.37410e-05
+           3 4.61443e+04 6.66618e+04 9.39284e+04 1.30729e-06 2.64093e-06 1.22107e-05
+           4 8.65036e+04 2.01193e+05-4.04762e+04 1.30729e-06 8.76209e-06-5.26191e-06
+      AvgVM:  1.85980e+05
+  151      1 1.46577e+04 1.19107e+04 8.98889e+04 5.54226e-07 3.75670e-07 1.16856e-05
+           2 1.42118e+04 1.04243e+04-5.11415e+04 5.54226e-07 3.08036e-07-6.64840e-06
+           3-8.65242e+04-1.97966e+04-5.12716e+04-4.02926e-06 3.08036e-07-6.66531e-06
+           4-8.60783e+04-1.83101e+04 8.97589e+04-4.02926e-06 3.75670e-07 1.16687e-05
+      AvgVM:  1.34622e+05
+  152      1-7.11523e+04-3.00460e+04-3.73617e+04-3.10692e-06-4.35015e-07-4.85702e-06
+           2-8.40913e+04-7.31761e+04 1.12359e+05-3.10692e-06-2.39743e-06 1.46067e-05
+           3 2.28520e+04-4.10931e+04 1.08585e+05 1.75900e-06-2.39743e-06 1.41161e-05
+           4 3.57910e+04 2.03701e+03-4.11355e+04 1.75900e-06-4.35015e-07-5.34762e-06
+      AvgVM:  1.43802e+05
+  153      1 1.74579e+04-9.02605e+04 1.14168e+05 2.22680e-06-4.77490e-06 1.48418e-05
+           2-1.24296e+04-1.89885e+05-1.38699e+04 2.22680e-06-9.30782e-06-1.80309e-06
+           3-1.03885e+05-2.17322e+05-2.25871e+04-1.93443e-06-9.30782e-06-2.93632e-06
+           4-7.39977e+04-1.17697e+05 1.05451e+05-1.93443e-06-4.77490e-06 1.37086e-05
+      AvgVM:  2.02300e+05
+  154      1-3.37602e+04-1.75618e+05-6.73339e+04 9.46260e-07-8.27450e-06-8.75341e-06
+           2 1.47411e+04-1.39469e+04-4.43347e+04 9.46260e-07-9.18463e-07-5.76351e-06
+           3 3.11692e+04-9.01851e+03-3.01884e+04 1.69374e-06-9.18463e-07-3.92450e-06
+           4-1.73322e+04-1.70690e+05-5.31877e+04 1.69374e-06-8.27450e-06-6.91440e-06
+      AvgVM:  1.32652e+05
+  155      1 4.89788e+04 3.35310e+04-1.42053e+04 1.94597e-06 9.41869e-07-1.84669e-06
+           2 3.39886e+04-1.64363e+04 1.75742e+04 1.94597e-06-1.33164e-06 2.28465e-06
+           3 5.66883e+04-9.62638e+03 1.32021e+04 2.97881e-06-1.33164e-06 1.71627e-06
+           4 7.16785e+04 4.03409e+04-1.85775e+04 2.97881e-06 9.41869e-07-2.41507e-06
+      AvgVM:  6.00048e+04
+  156      1 8.10159e+04 3.99606e+04-4.43811e+04 3.45139e-06 7.82793e-07-5.76954e-06
+           2 1.34095e+05 2.16889e+05-1.99001e+05 3.45139e-06 8.83305e-06-2.58702e-05
+           3 2.36515e+04 1.83756e+05-1.83520e+05-1.57377e-06 8.83305e-06-2.38576e-05
+           4-2.94271e+04 6.82772e+03-2.88998e+04-1.57377e-06 7.82793e-07-3.75698e-06
+      AvgVM:  2.29894e+05
+  157      1 1.34684e+04 2.55631e+05-1.47847e+05-3.16104e-06 1.25795e-05-1.92201e-05
+           2 2.78769e+04 3.03659e+05 1.07981e+05-3.16104e-06 1.47648e-05 1.40375e-05
+           3 2.10611e+05 3.58479e+05 1.12183e+05 5.15335e-06 1.47648e-05 1.45839e-05
+           4 1.96202e+05 3.10451e+05-1.43644e+05 5.15335e-06 1.25795e-05-1.86737e-05
+      AvgVM:  3.59793e+05
+  158      1 1.65186e+05 3.60046e+05 1.10001e+05 2.85858e-06 1.55245e-05 1.43001e-05
+           2 1.64462e+05 3.57636e+05-1.51443e+05 2.85858e-06 1.54149e-05-1.96877e-05
+           3-2.22836e+04 3.01612e+05-1.51654e+05-5.63836e-06 1.54149e-05-1.97151e-05
+           4-2.15605e+04 3.04023e+05 1.09790e+05-5.63836e-06 1.55245e-05 1.42727e-05
+      AvgVM:  3.87244e+05
+  159      1-2.09281e+05 1.61539e+05-1.19890e+05-1.28871e-05 1.12162e-05-1.55857e-05
+           2-2.84191e+05-8.81607e+04 1.36419e+05-1.28871e-05-1.45166e-07 1.77344e-05
+           3-1.01114e+05-3.32374e+04 1.14570e+05-4.55712e-06-1.45166e-07 1.48941e-05
+           4-2.62037e+04 2.16462e+05-1.41739e+05-4.55712e-06 1.12162e-05-1.84260e-05
+      AvgVM:  3.20764e+05
+  160      1-6.62693e+04-1.80622e+05 2.86999e+05-6.04139e-07-8.03704e-06 3.73099e-05
+           2-1.33520e+05-4.04790e+05 5.26118e+05-6.04139e-07-1.82367e-05 6.83954e-05
+           3 3.72795e+04-3.53550e+05 5.06504e+05 7.16723e-06-1.82367e-05 6.58455e-05
+           4 1.04530e+05-1.29382e+05 2.67385e+05 7.16723e-06-8.03704e-06 3.47600e-05
+      AvgVM:  7.39910e+05
+
+
+> Generating VTK file for post-processing...
+> VTK file "D:\大三\有限元\STAPpp-master\STAPpp-master\data\cantilever8×20.vtk" generated successfully.
+
+ S O L U T I O N   T I M E   L O G   I N   S E C 
+
+     TIME FOR INPUT PHASE = 5.42000e-01
+     TIME FOR CALCULATION OF STIFFNESS MATRIX = 2.57600e+00
+     TIME FOR FACTORIZATION AND LOAD CASE SOLUTIONS = 1.91300e+00
+
+     T O T A L   S O L U T I O N   T I M E = 5.03100e+00
+
